@@ -16,10 +16,10 @@
           box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
 }
 
-.white-form-section {
+.form-container .white-form-section {
   background-color: #fff;
 }
 
-.dark-form-section {
+.form-container .dark-form-section {
   border-top: 3px solid #a0021f;
 }
