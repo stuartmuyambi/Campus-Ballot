@@ -1,5 +1,23 @@
+@font-face {
+  font-family: 'Arial-Bold';
+  src: url("../fonts/Arial/Arial-Bold.TTF");
+}
+
 .main-page {
-  background-color: #3a4549;
+  background-color: #243137;
+}
+
+.vote {
+  background-color: #a0021f;
+  padding: 2px 20px;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.vote-icon {
+  font-size: 100px;
+  color: #22292c;
+  padding-top: 21%;
+  text-shadow: 2px 2px 3px #000;
 }
 
 .form-container {
@@ -7,13 +25,14 @@
   width: 78%;
   height: 540px;
   margin: auto;
-  margin-top: 4%;
+  margin-top: 3%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
   -webkit-box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
           box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
+  text-align: center;
 }
 
 .form-container .white-form-section {
@@ -21,5 +40,14 @@
 }
 
 .form-container .dark-form-section {
-  border-top: 3px solid #a0021f;
+  border-left: 7px solid #a0021f;
+}
+
+.form-container h1.slogan {
+  font-family: 'Arial-Bold';
+  color: #fafafa;
+  font-size: 4rem;
+  text-transform: capitalize;
+  padding-top: 10%;
+  text-shadow: 1px 1px 1px #000;
 }
