@@ -1,0 +1,26 @@
+// CSS Variables
+
+$red:#a0021f;
+
+.main-page {
+    background-color: #3a4549;
+}
+
+.form-container {
+    background-color: #1b2023;
+    width: 78%;
+    height: 540px;
+    margin: auto;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
+}
+
+.white-form-section {
+    background-color: #fff;
+}
+
+.dark-form-section {
+    border-top: 3px solid $red;
+}
