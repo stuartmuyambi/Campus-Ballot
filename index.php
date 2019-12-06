@@ -10,7 +10,7 @@
     <title>Home | Campus Ballot</title>
 </head>
 <body>
-    <
+    
 
     <script src="js/bootstrap.min.js"></script>
 </body>

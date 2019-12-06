@@ -3,6 +3,11 @@
   src: url("../fonts/Arial/Arial-Bold.TTF");
 }
 
+@font-face {
+  font-family: 'Arial-Narrow';
+  src: url("../fonts/Arial/Arial-Narrow.TTF");
+}
+
 .login-body {
   background-color: #243137;
 }
@@ -38,7 +43,7 @@
 .form-container .vote {
   background-color: #a0021f;
   padding: 2px 20px;
-  text-shadow: 2px 2px 3px #000;
+  text-shadow: 3px 2px 7px #000;
 }
 
 .form-container .vote-icon {

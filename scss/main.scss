@@ -4,6 +4,11 @@
     src: url('../fonts/Arial/Arial-Bold.TTF');
 }
 
+@font-face {
+    font-family: 'Arial-Narrow';
+    src: url('../fonts/Arial/Arial-Narrow.TTF');
+}
+
 // SCSS Variables
 $red:#a0021f;
 $white: #fafafa;
@@ -47,7 +52,7 @@ $shadow: #000;
     .vote {
         background-color: $red;
         padding: 2px 20px;
-        text-shadow: 2px 2px 3px $shadow;
+        text-shadow: 3px 2px 7px $shadow;
     }
 
     .vote-icon {
