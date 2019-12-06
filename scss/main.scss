@@ -31,9 +31,12 @@ $shadow: #000;
     border-left: 7px solid $red;
     background-color: #1b2023;
     box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
+    border-radius: 7px;
 
     .white-form-section {
         background-color: #f4f4f4;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
     }
 
     // .dark-form-section {
@@ -53,6 +56,7 @@ $shadow: #000;
         background-color: $red;
         padding: 2px 20px;
         text-shadow: 3px 2px 7px $shadow;
+        border-radius: 4px;
     }
 
     .vote-icon {
@@ -64,4 +68,3 @@ $shadow: #000;
     }
 
 }
-

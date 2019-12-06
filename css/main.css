@@ -26,10 +26,13 @@
   background-color: #1b2023;
   -webkit-box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
           box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
+  border-radius: 7px;
 }
 
 .form-container .white-form-section {
   background-color: #f4f4f4;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .form-container h1.slogan {
@@ -44,6 +47,7 @@
   background-color: #a0021f;
   padding: 2px 20px;
   text-shadow: 3px 2px 7px #000;
+  border-radius: 4px;
 }
 
 .form-container .vote-icon {

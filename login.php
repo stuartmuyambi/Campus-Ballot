@@ -13,7 +13,7 @@
     <div class="form-container">
         <div class="form-section dark-form-section">
             <i class="fas fa-vote-yea vote-icon"></i>
-            <h1 class="slogan">Your <span class="vote">vote</span> your <span class="line">voice.</span></h1>
+            <h1 class="slogan" id="slogan">Your <span class="vote">vote</span> your <span class="line">voice.</span></h1>
         </div>
 
         <div class="form-section white-form-section"></div>
