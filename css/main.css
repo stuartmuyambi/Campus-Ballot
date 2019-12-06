@@ -10,13 +10,14 @@
 .form-container {
   display: -ms-grid;
   display: grid;
-  width: 78%;
-  height: 540px;
+  width: 80%;
+  height: 84vh;
   margin: auto;
   margin-top: 3%;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
   text-align: center;
+  border-left: 7px solid #a0021f;
   background-color: #1b2023;
   -webkit-box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
           box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
@@ -24,10 +25,6 @@
 
 .form-container .white-form-section {
   background-color: #f4f4f4;
-}
-
-.form-container .dark-form-section {
-  border-left: 7px solid #a0021f;
 }
 
 .form-container h1.slogan {

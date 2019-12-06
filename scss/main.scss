@@ -17,12 +17,13 @@ $shadow: #000;
 // Form styles
 .form-container {
     display: grid;
-    width: 78%;
-    height: 540px;
+    width: 80%;
+    height: 84vh;
     margin: auto;
     margin-top: 3%;
     grid-template-columns: 40% 60%;
     text-align: center;
+    border-left: 7px solid $red;
     background-color: #1b2023;
     box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
 
@@ -30,9 +31,8 @@ $shadow: #000;
         background-color: #f4f4f4;
     }
 
-    .dark-form-section {
-        border-left: 7px solid $red;
-    }
+    // .dark-form-section {
+    // }
 
     h1.slogan {
         font-family: 'Arial-Bold';
