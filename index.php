@@ -7,16 +7,11 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <title>Campus Ballot</title>
+    <title>Home | Campus Ballot</title>
 </head>
-<body class="main-page">
-    <div class="form-container">
-        <div class="form-section dark-form-section">
-            <i class="fas fa-vote-yea vote-icon"></i>
-            <h1 class="slogan">Your <span class="vote">vote</span> your <span class="line">voice!</span></h1>
-        </div>
-        <div class="form-section white-form-section"></div>
-    </div>
+<body>
+    <
+
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

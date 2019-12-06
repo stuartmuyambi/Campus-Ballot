@@ -5,48 +5,35 @@
 }
 
 // SCSS Variables
-
 $red:#a0021f;
 $white: #fafafa;
 $shadow: #000;
 
-.main-page {
+// Main styles
+.login-body {
     background-color:#243137;
    }
 
-   .vote {
-       background-color: $red;
-       padding: 2px 20px;
-       text-shadow: 2px 2px 3px $shadow;
-   }
-
-   .vote-icon {
-       font-size: 100px;
-       color: #22292c;
-       padding-top: 21%;
-       text-shadow: 1px 1px 2px $shadow;
-
-   }
-
+// Form styles
 .form-container {
-    background-color: #1b2023;
+    display: grid;
     width: 78%;
     height: 540px;
     margin: auto;
     margin-top: 3%;
-    display: grid;
     grid-template-columns: 40% 60%;
-    box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
     text-align: center;
+    background-color: #1b2023;
+    box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
 
     .white-form-section {
-        background-color: #fff;
+        background-color: #f4f4f4;
     }
 
     .dark-form-section {
         border-left: 7px solid $red;
     }
-
+    
     h1.slogan {
         font-family: 'Arial-Bold';
         color: $white;
@@ -54,6 +41,20 @@ $shadow: #000;
         text-transform: capitalize;
         padding-top: 10%;
         // text-shadow: 1px 1px 1px $shadow;
+
+    }
+
+    .vote {
+        background-color: $red;
+        padding: 2px 20px;
+        text-shadow: 2px 2px 3px $shadow;
+    }
+
+    .vote-icon {
+        font-size: 100px;
+        color: #22292c;
+        padding-top: 21%;
+        text-shadow: 1px 1px 2px $shadow;
 
     }
 
