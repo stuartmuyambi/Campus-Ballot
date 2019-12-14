@@ -10,37 +10,73 @@
 }
 
 // SCSS Variables
-$red:#a0021f;
+$blue:darken(#007bff, 12%);   //#009eac
 $white: #fafafa;
 $shadow: #000;
+$gray: #6c757d;
 
 // Main styles
 .login-body {
-    background-color:#243137;
+    background-color:#323234;
    }
 
 // Form styles
 .form-container {
     display: grid;
     width: 80%;
-    height: 84vh;
+    height: 35rem;
     margin: auto;
-    margin-top: 3%;
-    grid-template-columns: 40% 60%;
-    text-align: center;
-    border-left: 7px solid $red;
-    background-color: #1b2023;
-    box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
-    border-radius: 7px;
+    margin-top: 3.1%;
+    grid-template-columns: 45% 55%;
+    border-left: 7px solid $blue;
+    background-color: #1b1b1d;
+    border-radius: 5px;
+
+    .errors {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 10% 90%;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 6px;
+        padding-left: 0px;
+        border-radius: 4px;
+        font-size: 15px;
+
+        .icon {
+            text-align: center;
+            font-size: 1.3rem;
+        }
+    }
+
+    .bummer{
+        background-color: #fbe9e7;
+        color: #e02e16;
+        border-left: 5px solid #d50001;
+    }
+
+    .hooray{
+        background-color: #e0f2f1;
+        color: #00bfa5;
+        border-left: 5px solid #00bfa5;
+    }
+
+    .check{
+        background-color: #fff5d1;
+        color: #ebbc00;
+        border-left: 5px solid #ebbc00;
+    }
 
     .white-form-section {
-        background-color: #f4f4f4;
-        border-top-right-radius: 7px;
+        background-color: #fff;
+        border-top-right-radius: 5px;
         border-bottom-right-radius: 7px;
     }
 
-    // .dark-form-section {
-    // }
+    .dark-form-section {
+        text-align: center;
+    }
 
     h1.slogan {
         font-family: 'Arial-Bold';
@@ -53,18 +89,50 @@ $shadow: #000;
     }
 
     .vote {
-        background-color: $red;
+        background-color: $blue;
         padding: 2px 20px;
-        text-shadow: 3px 2px 7px $shadow;
+        text-shadow: 1px 2px 5px $shadow;
         border-radius: 4px;
     }
 
     .vote-icon {
         font-size: 100px;
-        color: #22292c;
+        color: #363638;
         padding-top: 21%;
         text-shadow: 1px 1px 2px $shadow;
 
+    }
+
+    .input-container {
+        // background-color: #384047;
+        height: 35rem;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 4%;
+        margin: 0% 15% 0% 10%;
+        padding-top: 4%;
+    }
+
+    .text-logo {
+        color: #384047;
+        font-family: 'Arial-Bold', sans-serif;
+        text-transform: capitalize;
+        font-size: 2rem;
+        letter-spacing: -0.049em;
+        line-height: 1.2;
+        font-weight: 900;
+        text-align: center;
+
+        i {
+            color: darken(#007bff, 3%);
+            font-size: 30px;
+            line-height: 1.1;
+            font-style: normal;
+        }
+
+        .gray{
+            color: $gray;
+        }
     }
 
 }

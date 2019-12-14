@@ -9,30 +9,69 @@
 }
 
 .login-body {
-  background-color: #243137;
+  background-color: #323234;
 }
 
 .form-container {
   display: -ms-grid;
   display: grid;
   width: 80%;
-  height: 84vh;
+  height: 35rem;
   margin: auto;
-  margin-top: 3%;
-  -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
+  margin-top: 3.1%;
+  -ms-grid-columns: 45% 55%;
+      grid-template-columns: 45% 55%;
+  border-left: 7px solid #005dc2;
+  background-color: #1b1b1d;
+  border-radius: 5px;
+}
+
+.form-container .errors {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 90%;
+      grid-template-columns: 10% 90%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 6px;
+  padding-left: 0px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.form-container .errors .icon {
   text-align: center;
-  border-left: 7px solid #a0021f;
-  background-color: #1b2023;
-  -webkit-box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
-          box-shadow: 0 16px 24px 2px #0000001a, 0 6px 10px 5px #0000001a, 0 8px 10px -5px #00000033;
-  border-radius: 7px;
+  font-size: 1.3rem;
+}
+
+.form-container .bummer {
+  background-color: #fbe9e7;
+  color: #e02e16;
+  border-left: 5px solid #d50001;
+}
+
+.form-container .hooray {
+  background-color: #e0f2f1;
+  color: #00bfa5;
+  border-left: 5px solid #00bfa5;
+}
+
+.form-container .check {
+  background-color: #fff5d1;
+  color: #ebbc00;
+  border-left: 5px solid #ebbc00;
 }
 
 .form-container .white-form-section {
-  background-color: #f4f4f4;
-  border-top-right-radius: 7px;
+  background-color: #fff;
+  border-top-right-radius: 5px;
   border-bottom-right-radius: 7px;
+}
+
+.form-container .dark-form-section {
+  text-align: center;
 }
 
 .form-container h1.slogan {
@@ -44,15 +83,46 @@
 }
 
 .form-container .vote {
-  background-color: #a0021f;
+  background-color: #005dc2;
   padding: 2px 20px;
-  text-shadow: 3px 2px 7px #000;
+  text-shadow: 1px 2px 5px #000;
   border-radius: 4px;
 }
 
 .form-container .vote-icon {
   font-size: 100px;
-  color: #22292c;
+  color: #363638;
   padding-top: 21%;
   text-shadow: 1px 1px 2px #000;
+}
+
+.form-container .input-container {
+  height: 35rem;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 4%;
+  margin: 0% 15% 0% 10%;
+  padding-top: 4%;
+}
+
+.form-container .text-logo {
+  color: #384047;
+  font-family: 'Arial-Bold', sans-serif;
+  text-transform: capitalize;
+  font-size: 2rem;
+  letter-spacing: -0.049em;
+  line-height: 1.2;
+  font-weight: 900;
+  text-align: center;
+}
+
+.form-container .text-logo i {
+  color: #0074f0;
+  font-size: 30px;
+  line-height: 1.1;
+  font-style: normal;
+}
+
+.form-container .text-logo .gray {
+  color: #6c757d;
 }
