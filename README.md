@@ -1,2 +1,2 @@
 > ## Campus Ballot
-Basic PHP online voting app with no framework
+Campus Ballot is a very basic vanilla PHP Voting App.
