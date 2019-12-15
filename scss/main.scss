@@ -10,10 +10,9 @@
 }
 
 // SCSS Variables
-$blue:darken(#007bff, 12%);   //#009eac
+$blue:darken(#007bff, 10%);   //#009eac
 $white: #fafafa;
 $shadow: #000;
-$gray: #6c757d;
 
 // Main styles
 .login-body {
@@ -124,14 +123,10 @@ $gray: #6c757d;
         text-align: center;
 
         i {
-            color: darken(#007bff, 3%);
+            color: darken(#007bff, 6%);
             font-size: 30px;
             line-height: 1.1;
             font-style: normal;
-        }
-
-        .gray{
-            color: $gray;
         }
     }
 

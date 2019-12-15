@@ -21,7 +21,7 @@
   margin-top: 3.1%;
   -ms-grid-columns: 45% 55%;
       grid-template-columns: 45% 55%;
-  border-left: 7px solid #005dc2;
+  border-left: 7px solid #0062cc;
   background-color: #1b1b1d;
   border-radius: 5px;
 }
@@ -83,7 +83,7 @@
 }
 
 .form-container .vote {
-  background-color: #005dc2;
+  background-color: #0062cc;
   padding: 2px 20px;
   text-shadow: 1px 2px 5px #000;
   border-radius: 4px;
@@ -117,12 +117,8 @@
 }
 
 .form-container .text-logo i {
-  color: #0074f0;
+  color: #006ce0;
   font-size: 30px;
   line-height: 1.1;
   font-style: normal;
-}
-
-.form-container .text-logo .gray {
-  color: #6c757d;
 }

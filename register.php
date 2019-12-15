@@ -1,13 +1,15 @@
+<?php include('functions.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css">
-    <title>Register | Campus Ballot</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Register - Campus Ballot</title>
 </head>
 <body class="login-body">
     <div class="form-container shadow">
@@ -19,69 +21,51 @@
         <div class="form-section white-form-section">
             <div class="input-container">
                 <h2 class="text-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
-                <p class="lead">Register Now! Let your voice be heard</p>
+                <p class="lead">Let's help you create your account!</p>
 
-                <form action="" method="post" class="mx-auto">
-                    <!-- <div class="errors bummer">
-                        <div class="icon"><i class="fas fa-times-circle"></i></div>
-                        <div class="error-message">
-                            <strong>Don't:</strong> Waste precious above the fold space with vague calls calls to action like this
-                        </div>
-                    </div> -->
+                <form action="register.php" method="post">
 
-                    <!-- <div class="errors hooray">
-                        <div class="icon"><i class="fas fa-check-circle"></i></div>
-                        <div class="error-message">
-                            <strong>Don't:</strong> Waste precious above the fold space with vague calls calls to action like this
-                        </div>
-                    </div> -->
+                <?php echo display_error(); ?>
 
-                    <!-- <div class="errors check">
-                        <div class="icon"><i class="fas fa-exclamation-triangle"></i></div>
-                        <div class="error-message">
-                            <strong>Don't:</strong> Waste precious above the fold space with vague calls calls to action like this
-                        </div>
-                    </div> -->
-
-                    <div class="input-group mt-5 mb-2">
+                    <div class="input-group mt-4 mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-user"></i></div>
                         </div>
-                        <input type="text" class="form-control" placeholder="Username">
+                        <input type="text" name="username" class="form-control" placeholder="Username" value="<?php echo $username; ?>">
                     </div>
 
                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-envelope"></i></div>
                         </div>
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $email; ?>">
                     </div>
 
                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-address-card"></i></div>
                         </div>
-                        <input type="text" class="form-control" placeholder="ID Number">
+                        <input type="text" name="uid" class="form-control" placeholder="ID Number">
                     </div>
 
                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-key"></i></div>
                         </div>
-                        <input type="password" class="form-control" placeholder="Password">
+                        <input type="password" name="password_1" class="form-control" placeholder="Password">
                     </div>
 
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-key"></i></div>
                         </div>
-                        <input type="password" class="form-control" placeholder="Confirm Password">
+                        <input type="password" name="password_2" class="form-control" placeholder="Confirm Password">
                     </div>
 
-                    <div>
-                        <button type="submit" class="btn btn-primary btn-block mt-4">Create Account</button>
-                    </div>
-                    </form>
+                        <button type="submit" name="register_btn" class="btn btn-primary btn-block mt-3">Create Account</button>
+
+                    <p class="mt-3">Already have an account? <a href="login.php">Login</a></p>
+                </form>
             </div>
         </div>
     </div>
