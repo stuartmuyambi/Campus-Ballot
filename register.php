@@ -41,12 +41,12 @@
                         <input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $email; ?>">
                     </div>
 
-                    <div class="input-group mb-2">
+                    <!-- <div class="input-group mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-address-card"></i></div>
                         </div>
                         <input type="text" name="uid" class="form-control" placeholder="ID Number">
-                    </div>
+                    </div> -->
 
                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
