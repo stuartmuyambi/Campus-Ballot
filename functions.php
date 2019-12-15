@@ -2,7 +2,7 @@
 session_start();
 
 // connect to database
-$db = mysqli_connect('localhost','root','','multi_login');
+$db = mysqli_connect('localhost','stuartmuyambi','msj3p36n','campus_ballot');
 
 // variable declaration
 $username = "";
@@ -28,39 +28,42 @@ function register() {
 
     //form validation: ensure that the form is correctly filled
     if (empty($username)) {
-        array_push($errors, "Username is required");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Empty Field!</strong> Username is Required</div></div>");
     }
 
     if (empty($email)) {
-        array_push($errors, "Email is required");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Empty Field!</strong> Email is Required</div></div>");
     }
 
     if (empty($password_1)) {
-        array_push($errors, "Password is required");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Empty Field!</strong> Password is Required</div></div>");
     }
 
     if ($password_1 != $password_2) {
-        array_push($errors, "The two passwords do not match");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Bummer!</strong> The two passwords don't match!</div></div>");
     }
 
 // Validate password strength
-$uppercase = preg_match('@[A-Z]@', $password_1);
-$lowercase = preg_match('@[a-z]@', $password_1);
+// $uppercase = preg_match('@[A-Z]@', $password_1);
+// $lowercase = preg_match('@[a-z]@', $password_1);
 $number    = preg_match('@[0-9]@', $password_1);
-$specialChars = preg_match('@[^\w]@', $password_1);
+// $specialChars = preg_match('@[^\w]@', $password_1);
 
-if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password_1) < 8) {
-    array_push($errors, "Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.");
+// if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password_1) < 8)
+
+if(!$number || strlen($password_1) < 5) {
+    // Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Weak Password!</strong>It should be at least 5 characters and must atleast include one number.</div></div>");
 }
 
 // Validate username
 if (!preg_match("/^[a-zA-Z ]*$/",$username)) {
-  array_push($errors, "Username can only contain letters and whitespace");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Invalid Username!</strong> It can only contain letters and whitespace</div></div>");
 }
 
 // Validate Email
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-  array_push($errors, "Invalid Email format");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Invalid Email!</strong> Enter a valid email format.</div></div>");
 
 }
     //register user if there are no errors in the form
@@ -147,11 +150,11 @@ function login() {
 
     // make sure form is filled properly
     if (empty($username)) {
-        array_push($errors, "Username is required");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Empty Field!</strong> Username is Required</div></div>");
     }
 
     if (empty($password)) {
-        array_push($errors, "Password is required");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Empty Field!</strong> Password is Required</div></div>");
     }
 
     // attempt login if no errors on form
@@ -168,7 +171,7 @@ function login() {
 
                 $_SESSION['user'] = $logged_in_user;
                 $_SESSION['success'] = "You are now Logged in";
-                header('location: admin/home.php');
+                header('location: pages/admin/home.php');
             }else{
                 $_SESSION['user'] = $logged_in_user;
                 $_SESSION['success'] = "You are now logged in";
@@ -176,7 +179,7 @@ function login() {
                 header('location: index.php');
             }
         }else {
-            array_push($errors, "Wrong username or password combination");
+        array_push($errors, "<div class='errors bummer'><div class='icon'><i class='fas fa-times-circle'></i></div><div class='error-message'><strong>Invalid Entry!</strong> Username and Password don't match any account</div></div>");
         }
     }
 

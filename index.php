@@ -16,6 +16,15 @@
     <title>Home - Campus Ballot</title>
 </head>
 <body>
-    <h1>User Account</h1>
+    <div>
+        <?php  if(isset($_SESSION['user'])) : ?>
+            <h1><?php echo $_SESSION['user']['username'];?></h1>
+            <p>
+                <i style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i>
+                <br>
+            </p>
+            <a href="index.php?logout='1'" style="color: red;">logout</a>
+            <?php  endif ?>
+        </div>
 </body>
 </html>

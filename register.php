@@ -27,18 +27,18 @@
 
                 <?php echo display_error(); ?>
 
-                    <div class="input-group mt-4 mb-2">
+                    <div class="input-group mt-2 mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-user"></i></div>
                         </div>
-                        <input type="text" name="username" class="form-control" placeholder="Username" value="<?php echo $username; ?>">
+                        <input type="text" name="username" autocomplete="off" class="form-control" placeholder="Username" value="<?php echo $username; ?>">
                     </div>
 
                     <div class="input-group mb-2">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-envelope"></i></div>
                         </div>
-                        <input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $email; ?>">
+                        <input type="email" name="email" autocomplete="off" class="form-control" placeholder="Email" value="<?php echo $email; ?>">
                     </div>
 
                     <!-- <div class="input-group mb-2">
