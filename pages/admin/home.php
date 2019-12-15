@@ -25,7 +25,6 @@
     <title>Dashboard - Campus Ballot</title>
 </head>
 <body>
-    <h1>Admin Dashboard</h1>
     <div>
         <?php if(isset($_SESSION['user'])) : ?>
             <h1><?php echo $_SESSION['user']['username']; ?></h1>

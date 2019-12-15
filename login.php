@@ -25,7 +25,7 @@
 
                 <form action="login.php" method="post">
                     <?php echo display_error(); ?>
-                    <div class="input-group mt-2 mb-3">
+                    <div class="input-group mt-3 mb-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-user"></i></div>
                         </div>
