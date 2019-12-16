@@ -53,7 +53,7 @@ $number    = preg_match('@[0-9]@', $password_1);
 
 if(!$number || strlen($password_1) < 5) {
     // Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.
-        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Weak Password!</strong>It should be at least 5 characters and must atleast include one number.</div></div>");
+        array_push($errors, "<div class='errors check'><div class='icon'><i class='fas fa-exclamation-triangle'></i></div><div class='error-message'><strong>Weak Password!</strong> It should be at least 5 characters and must atleast include one number.</div></div>");
 }
 
 // Validate username

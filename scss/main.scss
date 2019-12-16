@@ -144,12 +144,16 @@ $shadow: #000;
     }
 
 /* The navigation menu links */
-.sidenav a {
+.sidenav .profile-settings {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
-    display: block;
+    display: inline;
+    color: #818181;
+    &:hover {
+        color: #cecece;
+    }
 }
 
 /* Style page content */
@@ -178,5 +182,10 @@ $shadow: #000;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: -20px;
+    border: 4px solid #818181;
 }
+
+.fa-cog {
+    margin-top: 16px;
+   }
