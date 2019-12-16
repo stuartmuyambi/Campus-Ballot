@@ -25,15 +25,17 @@
     <title>Dashboard - Campus Ballot</title>
 </head>
 <body>
-    <div>
-        <?php if(isset($_SESSION['user'])) : ?>
-            <h1><?php echo $_SESSION['user']['username']; ?></h1>
-            <small>
-                <i style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i>
-                <br>
-                <a href="home.php?logout='1'" style="color: red;">logout</a>
-            </small>
-        <?php endif ?>
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="main">
+        <h1>Main Content</h1>
     </div>
 </body>
 </html>
