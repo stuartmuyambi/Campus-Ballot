@@ -36,12 +36,12 @@
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-key"></i></div>
                         </div>
-                        <input type="password" name="password" class="form-control" placeholder="Password">
+                        <input type="password" name="password" class="form-control" placeholder="Password" id="password">
                     </div>
 
                     <div class="custom-control custom-checkbox mr-sm-2 mt-3">
-                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
-                        <label class="custom-control-label" for="customControlAutosizing" style="color: #6c757d;">Remember me</label>
+                        <input type="checkbox" class="custom-control-input" id="showPassword">
+                        <label class="custom-control-label" onclick="togglePassword()" for="showPassword" style="color: #6c757d;">Show Password</label>
                     </div>
 
                         <button type="submit" name="login_btn" class="btn btn-primary btn-block mt-4">Login</button>
@@ -51,6 +51,6 @@
             </div>
         </div>
     </div>
-
+<script src="js/main.js"></script>
 </body>
 </html>
