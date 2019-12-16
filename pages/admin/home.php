@@ -27,15 +27,19 @@
 <body>
     <!-- Side navigation -->
     <div class="sidenav">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <div class="dash-logo">
+            <span><i class="fas fa-vote-yea"></i> Campus Ballot</span>
+        </div>
+
+        <div class="profile">
+            <img src="../../images/admin_profile.jpg" alt="Admin Profile Photo" class="admin-photo">
+        </div>
+
     </div>
 
     <!-- Page content -->
     <div class="main">
-        <h1>Main Content</h1>
+        <!-- <h1>Main Content</h1> -->
     </div>
 </body>
 </html>

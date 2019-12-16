@@ -129,11 +129,8 @@
   width: 230px;
   position: fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
+  background-color: #323234;
   overflow-x: hidden;
-  padding-top: 20px;
 }
 
 /* The navigation menu links */
@@ -149,4 +146,31 @@
 .main {
   margin-left: 230px;
   padding: 0px 10px;
+}
+
+.dash-logo {
+  background-color: #1b1b1d;
+  color: #cecece;
+  font-family: 'Arial-Bold';
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 23px;
+  letter-spacing: -0.015em;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.admin-photo {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
 }
