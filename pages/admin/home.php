@@ -24,34 +24,33 @@
     <link rel="stylesheet" href="../../css/bootstrap.css">
     <title>Dashboard - Campus Ballot</title>
 </head>
-<body>
+<body class="gray-body">
     <!-- Side navigation -->
     <div class="sidenav">
         <div class="dash-logo">
             <span><i class="fas fa-vote-yea"></i> Campus Ballot</span>
         </div>
-        
+
         <a href="#" class="profile-settings"><i class="fas fa-cog"></i></a>
 
         <div class="profile">
             <img src="../../images/admin_profile.jpg" alt="Admin Profile Photo" class="admin-photo">
         </div>
 
-        <!-- <div>
             <?php if(isset($_SESSION['user'])) : ?>
-                <h2><?php echo $_SESSION['user']['username']; ?></h2>
-                <!-- <small>
-                    <i style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i>
-                    <br>
-                </small> -->
+                <h2 class="username"><?php echo $_SESSION['user']['username']; ?></h2>
             <?php endif ?>
-        </div> -->
+
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
 
     </div>
 
     <!-- Page content -->
-    <div class="main">
-        <!-- <h1>Main Content</h1> -->
+    <div class="main gray-body">
+        <h1>...</h1>
     </div>
 </body>
 </html>

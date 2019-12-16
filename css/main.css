@@ -16,12 +16,12 @@
   display: -ms-grid;
   display: grid;
   width: 80%;
-  height: 35rem;
+  height: auto;
   margin: auto;
   margin-top: 3.1%;
   -ms-grid-columns: 45% 55%;
       grid-template-columns: 45% 55%;
-  border-left: 7px solid #0062cc;
+  border-left: 7px solid #0a71c2;
   background-color: #1b1b1d;
   border-radius: 5px;
 }
@@ -59,9 +59,13 @@
 }
 
 .form-container .check {
-  background-color: #fff5d1;
-  color: #ebbc00;
-  border-left: 5px solid #ebbc00;
+  background-color: #e7f3fe;
+  color: #2196f3;
+  border-left: 5px solid #2196f3;
+}
+
+.form-container .error-message {
+  padding-top: 4px;
 }
 
 .form-container .white-form-section {
@@ -77,23 +81,23 @@
 .form-container h1.slogan {
   font-family: 'Arial-Bold';
   color: #fafafa;
-  font-size: 4rem;
+  font-size: 4.8rem;
   text-transform: capitalize;
   padding-top: 10%;
 }
 
 .form-container .vote {
-  background-color: #0062cc;
+  background-color: #0a71c2;
   padding: 2px 20px;
-  text-shadow: 1px 2px 5px #000;
+  text-shadow: 1px 2px 5px #202020;
   border-radius: 4px;
 }
 
 .form-container .vote-icon {
   font-size: 100px;
   color: #363638;
-  padding-top: 21%;
-  text-shadow: 1px 1px 2px #000;
+  padding-top: 15%;
+  text-shadow: 1px 1px 2px #202020;
 }
 
 .form-container .input-container {
@@ -117,7 +121,7 @@
 }
 
 .form-container .text-logo i {
-  color: #006ce0;
+  color: #2196f3;
   font-size: 30px;
   line-height: 1.1;
   font-style: normal;
@@ -129,8 +133,20 @@
   width: 230px;
   position: fixed;
   z-index: 1;
-  background-color: #323234;
+  background-color: #1f1f1f;
   overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
 /* The navigation menu links */
@@ -154,17 +170,17 @@
 }
 
 .dash-logo {
-  background-color: #1b1b1d;
+  background-color: #121212;
   color: #cecece;
   font-family: 'Arial-Bold';
-  height: 60px;
+  height: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 23px;
+  font-size: 1.250rem;
   letter-spacing: -0.015em;
   font-weight: 900;
   padding-left: 16px;
@@ -178,9 +194,19 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px;
-  border: 4px solid #818181;
+  border: 3px solid #999;
 }
 
 .fa-cog {
   margin-top: 16px;
+  font-size: 20px;
+}
+
+.username {
+  font-family: 'Arial-Bold';
+  color: #999;
+  text-align: center;
+  font-size: 1.125rem;
+  margin-top: 10px;
+  text-transform: capitalize;
 }

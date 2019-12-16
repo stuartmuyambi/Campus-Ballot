@@ -41,11 +41,11 @@
 
                     <div class="custom-control custom-checkbox mr-sm-2 mt-3">
                         <input type="checkbox" class="custom-control-input" id="showPassword">
-                        <label class="custom-control-label" onclick="togglePassword()" for="showPassword" style="color: #6c757d;">Show Password</label>
+                        <label class="custom-control-label" onclick="togglePassword()" for="showPassword" style="color: #6c757d;">Show password</label>
                     </div>
 
                         <button type="submit" name="login_btn" class="btn btn-primary btn-block mt-4">Login</button>
-                        <p class="mt-3" style="color: #6c757d;">Don't have an account yet? <a href="register.php">Register Now!</a></p>
+                        <p class="mt-3" style="color: #6c757d;">Don't have an account yet? <a href="register.php">Sign up</a></p>
 
                     </form>
             </div>
