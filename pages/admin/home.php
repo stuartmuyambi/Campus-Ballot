@@ -24,33 +24,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.css">
     <title>Dashboard - Campus Ballot</title>
 </head>
-<body class="gray-body">
-    <!-- Side navigation -->
-    <div class="sidenav">
-        <div class="dash-logo">
-            <span><i class="fas fa-vote-yea"></i> Campus Ballot</span>
-        </div>
+<body>
 
-        <a href="#" class="profile-settings"><i class="fas fa-cog"></i></a>
-
-        <div class="profile">
-            <img src="../../images/admin_profile.jpg" alt="Admin Profile Photo" class="admin-photo">
-        </div>
-
-            <?php if(isset($_SESSION['user'])) : ?>
-                <h2 class="username"><?php echo $_SESSION['user']['username']; ?></h2>
-            <?php endif ?>
-
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-
-    </div>
-
-    <!-- Page content -->
-    <div class="main gray-body">
-        <h1>...</h1>
-    </div>
 </body>
 </html>
