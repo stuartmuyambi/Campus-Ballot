@@ -14,13 +14,13 @@
 <body class="login-body">
     <div class="form-container shadow">
         <div class="form-section dark-form-section">
-            <!-- <i class="fas fa-vote-yea vote-icon"></i>
-            <h1 class="slogan" id="slogan">Your <span class="vote">vote</span> your <span class="line">voice.</span></h1> -->
+            <i class="fas fa-vote-yea vote-icon"></i>
+            <h1 class="slogan" id="slogan">Your <span class="vote">vote</span> your <span class="line">voice.</span></h1>
         </div>
 
         <div class="form-section white-form-section">
             <div class="input-container">
-                <!-- <h2 class="text-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
+                <h2 class="text-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
                 <p class="lead" style="color: #6c757d;">We're happy to see you again!</p>
 
                 <form action="login.php" method="post">
@@ -47,7 +47,7 @@
                         <button type="submit" name="login_btn" class="btn btn-primary btn-block mt-4">Login</button>
                         <p class="mt-3" style="color: #6c757d;">Don't have an account yet? <a href="register.php">Sign up</a></p>
 
-                    </form> -->
+                    </form>
             </div>
         </div>
     </div>

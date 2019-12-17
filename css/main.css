@@ -74,29 +74,36 @@
 }
 
 .form-container .dark-form-section {
+  display: -ms-grid;
+  display: grid;
   text-align: center;
 }
 
-.form-container h1.slogan {
+.form-container .dark-form-section h1.slogan {
   font-family: 'Arial-Bold';
   color: #fafafa;
   font-size: 4.8rem;
   text-transform: capitalize;
-  padding-top: 10%;
+  margin-bottom: 3.5rem;
+  font-size: 5rem;
 }
 
-.form-container .vote {
+.form-container .dark-form-section .vote-icon {
+  font-size: 100px;
+  color: #363638;
+  text-shadow: 1px 1px 2px #202020;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  margin-bottom: 33px;
+  font-size: 9rem;
+}
+
+.form-container .dark-form-section .vote {
   background-color: #0a71c2;
   padding: 2px 20px;
   text-shadow: 1px 2px 5px #202020;
   border-radius: 4px;
-}
-
-.form-container .vote-icon {
-  font-size: 100px;
-  color: #363638;
-  padding-top: 15%;
-  text-shadow: 1px 1px 2px #202020;
 }
 
 .form-container .input-container {

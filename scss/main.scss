@@ -77,33 +77,40 @@ $shadow: #202020;
     }
 
     .dark-form-section {
+        // text-align: center;
+        display: grid;
         text-align: center;
+
+        h1.slogan {
+            font-family: 'Arial-Bold';
+            color: $white;
+            font-size: 4.8rem;
+            text-transform: capitalize;
+            margin-bottom: 3.5rem;
+            font-size: 5rem;
+            // padding-top: 10%;
+            // text-shadow: 1px 1px 1px $shadow;
+
+        }
+
+        .vote-icon {
+            font-size: 100px;
+            color: #363638;
+            text-shadow: 1px 1px 2px $shadow;
+            align-self: end;
+            margin-bottom: 33px;
+            font-size: 9rem;
+
+        }
+        .vote {
+            background-color: $blue;
+            padding: 2px 20px;
+            text-shadow: 1px 2px 5px $shadow;
+            border-radius: 4px;
+        }
+
     }
 
-    h1.slogan {
-        font-family: 'Arial-Bold';
-        color: $white;
-        font-size: 4.8rem;
-        text-transform: capitalize;
-        padding-top: 10%;
-        // text-shadow: 1px 1px 1px $shadow;
-
-    }
-
-    .vote {
-        background-color: $blue;
-        padding: 2px 20px;
-        text-shadow: 1px 2px 5px $shadow;
-        border-radius: 4px;
-    }
-
-    .vote-icon {
-        font-size: 100px;
-        color: #363638;
-        padding-top: 15%;
-        text-shadow: 1px 1px 2px $shadow;
-
-    }
 
     .input-container {
         // background-color: #384047;
