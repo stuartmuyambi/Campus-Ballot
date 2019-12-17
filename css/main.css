@@ -10,17 +10,16 @@
 
 .login-body {
   background-color: #323234;
+  overflow: hidden;
 }
 
 .form-container {
   display: -ms-grid;
   display: grid;
-  width: 80%;
-  height: auto;
-  margin: auto;
-  margin-top: 3.1%;
   -ms-grid-columns: 45% 55%;
       grid-template-columns: 45% 55%;
+  margin: 3% auto;
+  width: 80%;
   border-left: 7px solid #0a71c2;
   background-color: #1b1b1d;
   border-radius: 5px;
