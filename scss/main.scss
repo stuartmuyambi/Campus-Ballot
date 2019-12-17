@@ -23,7 +23,7 @@ $shadow: #202020;
 // Form styles
 .form-container {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: repeat(2, 50%);
     margin: 3% auto;
     width: 80%;
     border-left: 7px solid $blue;

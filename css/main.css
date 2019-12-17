@@ -16,8 +16,8 @@
 .form-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 45% 55%;
-      grid-template-columns: 45% 55%;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
   margin: 3% auto;
   width: 80%;
   border-left: 7px solid #0a71c2;
