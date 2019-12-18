@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <title>Dashboard - Campus Ballot</title>
 </head>
-<body>
+<body class="dash-body">
 
 </body>
 </html>
