@@ -133,5 +133,14 @@
 }
 
 .dash-body {
-  background-color: #f4f4f4;
+  background-color: #eeeeee;
+}
+
+.dash-nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 80% 10%;
+      grid-template-columns: 10% 80% 10%;
+  background-color: #fff;
+  height: 3rem;
 }

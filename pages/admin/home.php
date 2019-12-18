@@ -25,6 +25,11 @@
     <title>Dashboard - Campus Ballot</title>
 </head>
 <body class="dash-body">
+    <div class="dash-nav shadow-sm">
+        <div class="dash-section-1">Section One</div>
+        <div class="dash-section-2">Section Two</div>
+        <div class="dash-section-3">Section Three</div>
+    </div>
 
 </body>
 </html>
