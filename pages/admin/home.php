@@ -29,12 +29,27 @@
     <!-- Dashboard Navigation Menu -->
     <div class="dash-nav shadow-sm">
         <div class="dash-section-1">
-        <h2 class="dash-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
+            <h2 class="dash-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
         </div>
-        <div class="dash-section-2">Section Two</div>
-        <div class="dash-section-3">Section Three</div>
+
+        <div class="dash-section-2">
+
+        </div>
+
+        <div class="dash-section-3">
+            <div class="admin-profile">
+                <img src="../../images/admin_profile.jpg" alt="Admin Profile Picture" class="admin-pic">
+                <span class="dash-username">
+                <?php if(isset($_SESSION['user'])) : ?>
+                    <?php echo $_SESSION['user']['username']; ?>
+                <?php endif ?>
+                </span>
+            </div>
+        </div>
     </div>
     <!-- End of Dashboard Navigation  -->
+
+    <!-- Dashboard body  -->
 
 </body>
 </html>

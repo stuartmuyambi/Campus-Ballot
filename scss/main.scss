@@ -9,6 +9,10 @@
     src: url('../fonts/Arial/Arial-Narrow.TTF');
 }
 
+@font-face {
+    font-family: 'Arial-Regular';
+    src: url('../fonts/Arial/Arial-Regular.TTF');
+}
 // SCSS Variables
 $blue:darken(#2196f3, 14%);   //#009eac
 $white: #fafafa;
@@ -169,6 +173,36 @@ $shadow: #202020;
 
 }
 
+.admin-profile {
+    padding-top: 3px;
+    margin-left: 10px;
+}
+.admin-pic {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    border: 2px solid #fafafa00;
+}
+
+.search-input {
+    background-color: #eeeeee;
+    color: #939393;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.dash-username {
+    color: #384047;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 30px;
+    letter-spacing: -0.049em;
+  }
+
 .dash-nav {
     display: grid;
     grid-template-columns: 18% 64% 20%;
@@ -184,7 +218,8 @@ $shadow: #202020;
 //     //search section
 //     // background-color: #fc6e51;
 // }
-// .dash-section-3{
-//     //admin avatar section
-//     // background-color: #f6bb42;
-// }
+.dash-section-3{
+    //admin avatar section
+    // background-color: #f6bb42;
+    text-align: center;
+}
