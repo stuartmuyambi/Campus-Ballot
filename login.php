@@ -39,9 +39,15 @@
                         <input type="password" name="password" class="form-control" placeholder="Password" id="password">
                     </div>
 
-                    <div class="custom-control custom-checkbox mr-sm-2 mt-3">
+                    <!-- check box for toggle password if required
+                        <div class="custom-control custom-checkbox mr-sm-2 mt-3">
                         <input type="checkbox" class="custom-control-input" id="showPassword">
                         <label class="custom-control-label" onclick="togglePassword()" for="showPassword" style="color: #6c757d;">Show password</label>
+                    </div> -->
+
+                    <div class="custom-control custom-switch mt-4">
+                        <input type="checkbox" class="custom-control-input" id="showPassword">
+                        <label class="custom-control-label" for="showPassword" onclick="togglePassword()" style="color: #6c757d">Show password</label>
                     </div>
 
                         <button type="submit" name="login_btn" class="btn btn-primary btn-block mt-4">Login</button>

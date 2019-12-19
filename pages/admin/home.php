@@ -25,11 +25,16 @@
     <title>Dashboard - Campus Ballot</title>
 </head>
 <body class="dash-body">
+
+    <!-- Dashboard Navigation Menu -->
     <div class="dash-nav shadow-sm">
-        <div class="dash-section-1">Section One</div>
+        <div class="dash-section-1">
+        <h2 class="dash-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
+        </div>
         <div class="dash-section-2">Section Two</div>
         <div class="dash-section-3">Section Three</div>
     </div>
+    <!-- End of Dashboard Navigation  -->
 
 </body>
 </html>
