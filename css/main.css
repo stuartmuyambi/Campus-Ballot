@@ -205,3 +205,30 @@
 .dash-section-3 {
   text-align: center;
 }
+
+.main-section-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 17% 65% 18%;
+      grid-template-columns: 17% 65% 18%;
+  height: 100vh;
+}
+
+.main-section-container .main-section-1 {
+  background-color: #fc6e51;
+}
+
+.main-section-container .main-section-2 {
+  background-color: #4fc1e9;
+}
+
+.main-section-container .main-section-3 {
+  background-color: #f6bb42;
+}
+
+.main-section-container .side-nav {
+  background-color: #f6bb42;
+  width: 85%;
+  margin: 4% auto;
+  height: 36rem;
+}

@@ -50,6 +50,15 @@
     <!-- End of Dashboard Navigation  -->
 
     <!-- Dashboard body  -->
+    <div class="main-section-container">
+        <div class="main-section-1">
+            <div class="side-nav">
+                ...
+            </div>
+        </div>
+        <div class="main-section-2">...</div>
+        <div class="main-section-3">...</div>
+    </div>
 
 </body>
 </html>
