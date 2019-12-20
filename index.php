@@ -45,7 +45,7 @@
         <h1 class="display-4">Welcome <?php echo $_SESSION['user']['username'];?></strong>
     <?php  endif ?>
 
-    <p class="index-slogan">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
+    <p class="index-slogan mb-4">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
 
     <div class="options">
         <div class="option option-1">
