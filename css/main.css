@@ -14,7 +14,7 @@
 }
 
 .login-body {
-  background-color: #323234;
+  background-color: #252b35;
 }
 
 .form-container {
@@ -25,7 +25,7 @@
   margin: 3% auto;
   width: 80%;
   border-left: 7px solid #0a71c2;
-  background-color: #1b1b1d;
+  background-color: #0e141e;
   border-radius: 4px;
 }
 
@@ -94,7 +94,7 @@
 
 .form-container .dark-form-section .vote-icon {
   font-size: 100px;
-  color: #363638;
+  color: #252b35;
   text-shadow: 1px 1px 2px #202020;
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
