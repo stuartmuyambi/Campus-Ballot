@@ -21,7 +21,7 @@
 </head>
 <body>
     <!-- Dashboard Navigation Menu -->
-    <div class="dash-nav shadow-sm">
+    <div class="dash-nav">
         <div class="dash-section-1">
             <h2 class="dash-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
         </div>
@@ -36,7 +36,12 @@
 
     <!-- Main Body  -->
     <div class="main-body">
-        ...
+
+    <?php  if(isset($_SESSION['user'])) : ?>
+        <h1 class="display-4">Welcome <?php echo $_SESSION['user']['username'];?></strong>
+    <?php  endif ?>
+
+    <p class="index-slogan">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
     </div>
 
     <!-- End of main body  -->
