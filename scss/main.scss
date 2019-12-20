@@ -220,9 +220,13 @@ $shadow: #202020;
 //     // background-color: #fc6e51;
 // }
 .dash-section-3{
-    //admin avatar section
-    // background-color: #f6bb42;
     text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+    a:hover{
+        text-decoration: none;
+    }
 }
 
 // Main body styles
@@ -250,7 +254,21 @@ $shadow: #202020;
         letter-spacing: -0.002em;
         font-weight: 100;
       }
-}
+
+    }
+        .logout {
+              color: #363e4d;
+              font-family: 'Arial-Bold', sans-serif;
+              margin-top: 4%;
+              margin-bottom: 4%;
+              font-size: 1.3rem;
+              text-align: center;
+              font-weight: 900;
+              letter-spacing: 0.011em;
+              text-align: center;
+            //   letter-spacing: 0.018em;
+
+          }
 
 // Dash main sections
 .main-section-container {

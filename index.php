@@ -30,6 +30,10 @@
         </div>
 
         <div class="dash-section-3">
+        <?php  if(isset($_SESSION['user'])) : ?>
+            <a href="index.php?logout='1'">
+                <i class="fas fa-power-off fa-lg" style="color: #bb1333;"> </i> <span class="logout"> Logout</span></a>
+        <?php  endif ?>
         </div>
     </div>
     <!-- End of Dashboard Navigation  -->

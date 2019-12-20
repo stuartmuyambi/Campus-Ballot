@@ -205,6 +205,12 @@
 
 .dash-section-3 {
   text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.dash-section-3 a:hover {
+  text-decoration: none;
 }
 
 .main-body {
@@ -232,6 +238,18 @@
   line-height: 1.9;
   letter-spacing: -0.002em;
   font-weight: 100;
+}
+
+.logout {
+  color: #363e4d;
+  font-family: 'Arial-Bold', sans-serif;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.011em;
+  text-align: center;
 }
 
 .main-section-container {
