@@ -231,7 +231,6 @@ $shadow: #202020;
 
 // Main body styles
 .main-body{
-    display: grid;
     background-color: #252b35;
     height: 530px;
 
@@ -283,5 +282,24 @@ $shadow: #202020;
         height: 34rem;
         background-color: #fff;
 
+    }
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-column-gap: 30px;
+    
+    .option-1 {
+        height: 300px;
+        background-color: #4fc1e9;
+    }
+    .option-2 {
+        height: 300px;
+        background-color: #fc6e51;
+    }
+    .option-3 {
+        height: 300px;
+        background-color: #f6bb42;
     }
 }

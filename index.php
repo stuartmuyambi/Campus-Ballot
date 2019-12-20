@@ -46,7 +46,23 @@
     <?php  endif ?>
 
     <p class="index-slogan">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
+
+    <div class="options">
+        <div class="option option-1">
+            ...
+        </div>
+
+        <div class="option option-2">
+            ...
+        </div>
+
+        <div class="option option-3">
+            ...
+        </div>
     </div>
+
+    </div>
+
 
     <!-- End of main body  -->
 </body>
