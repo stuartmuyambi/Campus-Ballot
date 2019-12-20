@@ -279,14 +279,17 @@
 .options .option-1 {
   height: 300px;
   background-color: #4fc1e9;
+  border-radius: 3px;
 }
 
 .options .option-2 {
   height: 300px;
   background-color: #fc6e51;
+  border-radius: 3px;
 }
 
 .options .option-3 {
   height: 300px;
   background-color: #f6bb42;
+  border-radius: 3px;
 }

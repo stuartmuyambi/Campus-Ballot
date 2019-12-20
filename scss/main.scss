@@ -289,17 +289,21 @@ $shadow: #202020;
     display: grid;
     grid-template-columns: repeat(3, 250px);
     grid-column-gap: 30px;
+    justify-content: center;
     
     .option-1 {
         height: 300px;
         background-color: #4fc1e9;
+        border-radius: 3px;
     }
     .option-2 {
         height: 300px;
         background-color: #fc6e51;
+        border-radius: 3px;
     }
     .option-3 {
         height: 300px;
         background-color: #f6bb42;
+        border-radius: 3px;
     }
 }
