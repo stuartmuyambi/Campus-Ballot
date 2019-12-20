@@ -142,7 +142,7 @@
 }
 
 .dash-logo {
-  color: #384047;
+  color: #363e4d;
   font-family: 'Arial-Bold', sans-serif;
   text-transform: capitalize;
   font-size: 1.5rem;
@@ -154,7 +154,7 @@
 }
 
 .dash-logo i {
-  color: #2196f3;
+  color: #2f75c9;
   line-height: 1.1;
   font-style: normal;
   padding-left: 0px;
@@ -205,6 +205,13 @@
 
 .dash-section-3 {
   text-align: center;
+}
+
+.main-body {
+  display: -ms-grid;
+  display: grid;
+  background-color: #252b35;
+  height: 530px;
 }
 
 .main-section-container {

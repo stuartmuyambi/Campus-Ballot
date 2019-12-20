@@ -20,16 +20,25 @@
     <title>Home - Campus Ballot</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="jumbotron">
-            <?php  if(isset($_SESSION['user'])) : ?>
-                <h1 class="display-4" style="text-align:center;">Hello <?php echo $_SESSION['user']['username'];?>!</h1>
-                <p class="lead">We're happy to have you here again!<br><br>
-                <a href="index.php?logout='1'" class="btn btn-danger btn-lg" style="text-align:center;">Logout <i class="fas fa-sign-out-alt"></i></a>
-                </p>
-            <?php  endif ?>
+    <!-- Dashboard Navigation Menu -->
+    <div class="dash-nav shadow-sm">
+        <div class="dash-section-1">
+            <h2 class="dash-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
         </div>
 
+        <div class="dash-section-2">
+        </div>
+
+        <div class="dash-section-3">
+        </div>
     </div>
+    <!-- End of Dashboard Navigation  -->
+
+    <!-- Main Body  -->
+    <div class="main-body">
+        ...
+    </div>
+
+    <!-- End of main body  -->
 </body>
 </html>

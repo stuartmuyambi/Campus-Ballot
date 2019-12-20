@@ -152,7 +152,7 @@ $shadow: #202020;
 }
 
 .dash-logo {
-    color: #384047;
+    color: lighten(#252b35,8%);
     font-family: 'Arial-Bold', sans-serif;
     text-transform: capitalize;
     font-size: 1.5rem;
@@ -163,7 +163,7 @@ $shadow: #202020;
     margin-bottom: 4%;
 
         i {
-            color: #2196f3;
+            color: #2f75c9;
             line-height: 1.1;
             font-style: normal;
             padding-left: 0px;
@@ -225,24 +225,18 @@ $shadow: #202020;
     text-align: center;
 }
 
+// Main body styles
+.main-body{
+    display: grid;
+    background-color: #252b35;
+    height: 530px;
+}
+
 // Dash main sections
 .main-section-container {
     display: grid;
     grid-template-columns: 17% 65% 18%;
     height: 100vh;
-
-    // .main-section-1{
-    //     // background-color: #fc6e51;
-    // }
-
-    // .main-section-2{
-    //     // background-color: #4fc1e9;
-
-    // }
-
-    // .main-section-3{
-    //     // background-color: #f6bb42;
-    // }
 
     .side-nav {
         // background-color: #f6bb42;
