@@ -49,7 +49,7 @@
 
     <div class="card-section">
 
-        <div class="card-container card-1">
+        <div class="card-container card-1 shrink">
             <header class="card-header">
                 <i class="fas fa-vote-yea fa-3x"></i>
             </header>
@@ -58,7 +58,7 @@
             </footer>
         </div>
 
-        <div class="card-container card-2">
+        <div class="card-container card-2 shrink">
             <header class="card-header">
                 <i class="fas fa-user-friends fa-3x"></i>
             </header>
@@ -67,7 +67,7 @@
             </footer>
         </div>
 
-        <div class="card-container card-3">
+        <div class="card-container card-3 shrink">
             <header class="card-header">
                 <i class="fas fa-chart-pie fa-3x"></i>
             </header>
