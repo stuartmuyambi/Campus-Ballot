@@ -201,6 +201,7 @@
   background-color: #fff;
   height: 3.2rem;
   border-bottom: 2px solid #dee0e0;
+  overflow-x: hidden;
 }
 
 .dash-section-3 {

@@ -51,7 +51,7 @@
 
         <div class="card-container card-1">
             <header class="card-header">
-                <i class="fas fa-paw fa-3x"></i>
+                <i class="fas fa-paw fa-2x"></i>
             </header>
             <footer class="card-footer">
                 <p>I want to vote</p>
@@ -60,7 +60,7 @@
 
         <div class="card-container card-2">
             <header class="card-header">
-                <i class="fas fa-paw fa-3x"></i>
+                <i class="fas fa-paw fa-2x"></i>
             </header>
             <footer class="card-footer">
                 <p>I want to vote</p>
@@ -69,7 +69,7 @@
 
         <div class="card-container card-3">
             <header class="card-header">
-                <i class="fas fa-paw fa-3x"></i>
+                <i class="fas fa-paw fa-2x"></i>
             </header>
             <footer class="card-footer">
                 <p>I want to vote</p>
