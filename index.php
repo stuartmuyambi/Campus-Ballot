@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Home - Campus Ballot</title>
 </head>
-<body>
+<body class="index-body">
     <!-- Dashboard Navigation Menu -->
     <div class="dash-nav">
         <div class="dash-section-1">
@@ -51,7 +51,7 @@
 
         <div class="card-container card-1">
             <header class="card-header">
-                <i class="fas fa-paw fa-2x"></i>
+                <i class="fas fa-paw fa-3x"></i>
             </header>
             <footer class="card-footer">
                 <p>I want to vote</p>
@@ -60,7 +60,7 @@
 
         <div class="card-container card-2">
             <header class="card-header">
-                <i class="fas fa-paw fa-2x"></i>
+                <i class="fas fa-paw fa-3x"></i>
             </header>
             <footer class="card-footer">
                 <p>I want to vote</p>
@@ -69,7 +69,7 @@
 
         <div class="card-container card-3">
             <header class="card-header">
-                <i class="fas fa-paw fa-2x"></i>
+                <i class="fas fa-paw fa-3x"></i>
             </header>
             <footer class="card-footer">
                 <p>I want to vote</p>

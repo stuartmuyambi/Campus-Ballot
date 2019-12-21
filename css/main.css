@@ -17,6 +17,10 @@
   background-color: #252b35;
 }
 
+.index-body {
+  background-color: #252b35;
+}
+
 .form-container {
   display: -ms-grid;
   display: grid;
@@ -216,7 +220,6 @@
 
 .main-body {
   background-color: #252b35;
-  height: 100vh;
 }
 
 .main-body .display-4 {
@@ -296,7 +299,7 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding-top: 1.75rem;
+  padding-top: 2.75rem;
 }
 
 .card-container .card-footer {

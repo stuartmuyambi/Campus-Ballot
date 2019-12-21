@@ -24,6 +24,10 @@ $shadow: #202020;
     // overflow: hidden;
    }
 
+.index-body{
+    background-color: #252b35;
+}
+
 // Form styles
 .form-container {
     display: grid;
@@ -234,7 +238,6 @@ $shadow: #202020;
 // Main body styles
 .main-body{
     background-color: #252b35;
-    height: 100vh;
 
     .display-4 {
         font-size: 3.5rem;
@@ -307,7 +310,7 @@ $shadow: #202020;
         margin-bottom: 0;
         background-color: rgba(0, 0, 0, 0.03);
         flex-grow: 1;
-        padding-top: 1.75rem;
+        padding-top: 2.75rem;
     }
 
     .card-footer {
