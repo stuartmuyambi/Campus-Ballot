@@ -53,27 +53,33 @@
             <header class="card-header">
                 <i class="fas fa-vote-yea fa-3x"></i>
             </header>
-            <footer class="card-footer">
-                <p>cast vote</p>
-            </footer>
+            <a href="#">
+                <footer class="card-footer">
+                    <p>cast vote</p>
+                </footer>
+            </a>
         </div>
 
         <div class="card-container card-2 shrink">
             <header class="card-header">
                 <i class="fas fa-user-friends fa-3x"></i>
             </header>
-            <footer class="card-footer">
-                <p>view candidates</p>
-            </footer>
+            <a href="#">
+                <footer class="card-footer">
+                    <p>view candidates</p>
+                </footer>
+            </a>
         </div>
 
         <div class="card-container card-3 shrink">
             <header class="card-header">
                 <i class="fas fa-chart-pie fa-3x"></i>
             </header>
-            <footer class="card-footer">
-                <p>check poll results</p>
-            </footer>
+            <a href="#">
+                <footer class="card-footer">
+                    <p>check poll results</p>
+                </footer>
+            </a>
         </div>
 
     </div>

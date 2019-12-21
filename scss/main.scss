@@ -309,6 +309,10 @@ $shadow: #202020;
         cursor: pointer;
     }
 
+    a:hover {
+        text-decoration: none;
+    }
+
     .card-header {
         padding: 0.75rem 1.25rem;
         margin-bottom: 0;

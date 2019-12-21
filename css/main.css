@@ -296,6 +296,10 @@
   cursor: pointer;
 }
 
+.card-container a:hover {
+  text-decoration: none;
+}
+
 .card-container .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
