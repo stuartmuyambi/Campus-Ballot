@@ -51,28 +51,28 @@
 
         <div class="card-container card-1">
             <header class="card-header">
-                <i class="fas fa-paw fa-3x"></i>
+                <i class="fas fa-vote-yea fa-3x"></i>
             </header>
             <footer class="card-footer">
-                <p>I want to vote</p>
+                <p>cast vote</p>
             </footer>
         </div>
 
         <div class="card-container card-2">
             <header class="card-header">
-                <i class="fas fa-paw fa-3x"></i>
+                <i class="fas fa-user-friends fa-3x"></i>
             </header>
             <footer class="card-footer">
-                <p>I want to vote</p>
+                <p>view candidates</p>
             </footer>
         </div>
 
         <div class="card-container card-3">
             <header class="card-header">
-                <i class="fas fa-paw fa-3x"></i>
+                <i class="fas fa-chart-pie fa-3x"></i>
             </header>
             <footer class="card-footer">
-                <p>I want to vote</p>
+                <p>check poll results</p>
             </footer>
         </div>
 
