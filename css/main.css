@@ -216,7 +216,7 @@
 
 .main-body {
   background-color: #252b35;
-  height: 530px;
+  height: 100vh;
 }
 
 .main-body .display-4 {
@@ -278,7 +278,7 @@
 }
 
 .card-container {
-  height: 320px;
+  height: 360px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

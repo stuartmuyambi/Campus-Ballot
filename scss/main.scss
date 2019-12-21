@@ -234,7 +234,7 @@ $shadow: #202020;
 // Main body styles
 .main-body{
     background-color: #252b35;
-    height: 530px;
+    height: 100vh;
 
     .display-4 {
         font-size: 3.5rem;
@@ -297,7 +297,7 @@ $shadow: #202020;
 }
 
 .card-container{
-    height: 320px;
+    height: 360px;
     display: flex;
     flex-flow: column nowrap;
     border-radius: 5px;
