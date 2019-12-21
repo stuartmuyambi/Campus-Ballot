@@ -305,6 +305,10 @@ $shadow: #202020;
     flex-flow: column nowrap;
     border-radius: 5px;
 
+    &:hover {
+        cursor: pointer;
+    }
+
     .card-header {
         padding: 0.75rem 1.25rem;
         margin-bottom: 0;
