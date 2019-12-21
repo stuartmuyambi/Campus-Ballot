@@ -284,3 +284,50 @@ $shadow: #202020;
 
     }
 }
+
+// Cards section
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+
+.card-container{
+    height: 320px;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 5px;
+
+    .card-header {
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: rgba(0, 0, 0, 0.03);
+        flex-grow: 1;
+        padding-top: 1.75rem;
+    }
+
+    .card-footer {
+        padding :1.75rem 1.25rem;
+        background-color: #fff;
+        color: #202020;
+        font-size: 1.5rem;
+    }
+    .card-footer:last-child {
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+       }
+
+}
+
+
+.card-1 {
+    background-color: #fc6e51;
+}
+.card-2 {
+    background-color: #48cfad;
+}
+.card-3 {
+    background-color: #f6bb42;
+}

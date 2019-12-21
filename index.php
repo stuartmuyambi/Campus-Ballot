@@ -47,7 +47,36 @@
 
     <p class="index-slogan mb-4">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
 
+    <div class="card-section">
 
+        <div class="card-container card-1">
+            <header class="card-header">
+                <i class="fas fa-paw fa-3x"></i>
+            </header>
+            <footer class="card-footer">
+                <p>I want to vote</p>
+            </footer>
+        </div>
+
+        <div class="card-container card-2">
+            <header class="card-header">
+                <i class="fas fa-paw fa-3x"></i>
+            </header>
+            <footer class="card-footer">
+                <p>I want to vote</p>
+            </footer>
+        </div>
+
+        <div class="card-container card-3">
+            <header class="card-header">
+                <i class="fas fa-paw fa-3x"></i>
+            </header>
+            <footer class="card-footer">
+                <p>I want to vote</p>
+            </footer>
+        </div>
+
+    </div>
     <!-- End of main body  -->
 </body>
 </html>
