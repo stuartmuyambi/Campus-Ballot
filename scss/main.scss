@@ -407,6 +407,16 @@ $shadow: #202020;
     background-color: lighten(#252b35, 9%);
     color: #fff;    
 }
+
+// Accordion Icon
+.accordion:after {
+        content: '\02795';/* Unicode character for "plus" sign (+) */    
+        font-size: 13px;color: #777;    
+        float: right;margin-left: 5px;
+    }
+.active:after {    
+    content: "\2796";/* Unicode character for "minus" sign (-) */
+}
     
 // Style the accordion panel. Note: hidden by default
 .panel {    
