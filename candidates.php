@@ -43,7 +43,7 @@
     <div class="main-body">
         <div class="candidates-container mt-5 pt-5 pb-5 pr-5 pl-5">
 
-                <div class="accordion">Section 1</div>
+                <div class="accordion top-accordion">Section 1</div>
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
@@ -52,7 +52,7 @@
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
-                <div class="accordion">Section 3</div>
+                <div class="accordion bottom-accordion">Section 3</div>
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
