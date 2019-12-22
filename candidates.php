@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>Vote - Campus Ballot</title>
+    <title>Candidates - Campus Ballot</title>
 </head>
 <body class="index-body">
     <!-- Dashboard Navigation Menu -->

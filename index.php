@@ -61,7 +61,7 @@
             </div>
         </a>
 
-        <a href="#">
+        <a href="candidates.php">
             <div class="card-container card-2 shrink">
                 <header class="card-header">
                     <i class="fas fa-user-friends fa-3x mt-4"></i>
