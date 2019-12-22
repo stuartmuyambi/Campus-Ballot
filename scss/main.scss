@@ -407,4 +407,10 @@ $shadow: #202020;
     }
     
     // Style the accordion panel. Note: hidden by default
-    .panel {    padding: 0 18px;    background-color: white;max-height: 0;    overflow: hidden;transition: max-height 0.2s ease-out;}
+    .panel {    
+        padding: 0 18px;    
+        background-color: white;
+        max-height: 0;    
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
