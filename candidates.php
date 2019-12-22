@@ -43,16 +43,16 @@
     <div class="main-body">
         <div class="candidates-container mt-5 pt-5 pb-5 pr-5 pl-5">
 
-                <button class="accordion">Section 1</button>
+                <div class="accordion">Section 1</div>
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
 
-                <button class="accordion">Section 2</button>
+                <div class="accordion">Section 2</div>
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
-                <button class="accordion">Section 3</button>
+                <div class="accordion">Section 3</div>
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
