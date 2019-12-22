@@ -43,17 +43,17 @@
     <div class="main-body">
 
     <?php  if(isset($_SESSION['user'])) : ?>
-        <h1 class="display-4">Welcome <?php echo $_SESSION['user']['username'];?>
+        <h1 class="display-4 mt-3">Welcome <?php echo $_SESSION['user']['username'];?>
     <?php  endif ?>
 
-    <p class="index-slogan mb-4">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
+    <p class="index-slogan mt-2 mb-4">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
 
-    <div class="card-section">
+    <div class="card-section mt-3">
 
         <a href="#">
             <div class="card-container card-1 shrink">
                 <header class="card-header">
-                    <i class="fas fa-vote-yea fa-3x"></i>
+                    <i class="fas fa-vote-yea fa-3x mt-4"></i>
                 </header>
                 <footer class="card-footer">
                     <p>cast vote</p>
@@ -64,7 +64,7 @@
         <a href="#">
             <div class="card-container card-2 shrink">
                 <header class="card-header">
-                    <i class="fas fa-user-friends fa-3x"></i>
+                    <i class="fas fa-user-friends fa-3x mt-4"></i>
                 </header>
                 <footer class="card-footer">
                     <p>view candidates</p>
@@ -75,7 +75,7 @@
         <a href="#">
             <div class="card-container card-3 shrink">
                 <header class="card-header">
-                    <i class="fas fa-chart-pie fa-3x"></i>
+                    <i class="fas fa-chart-pie fa-3x mt-4"></i>
                 </header>
                 <footer class="card-footer">
                     <p>check poll results</p>
