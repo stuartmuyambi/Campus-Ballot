@@ -358,3 +358,22 @@ $shadow: #202020;
       transform: scale(0.9);
       -webkit-transform: scale(0.9);
   }
+
+  // Voters container
+
+  .voters-container{
+      background-color: #cecece;
+      width: 80%;
+      height: auto;
+      margin: auto;
+      border-radius: 4px;
+
+      
+    }
+.table-container {
+    background-color: #fff;
+    width: 80%;
+    height: 10rem;
+    margin: auto;
+    border-radius: 4px;
+}
