@@ -26,15 +26,16 @@
             <h2 class="dash-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
         </div>
 
-        <div class="dash-section-2">
-        </div>
+        <div class="dash-section-2"></div>
 
         <div class="dash-section-3">
-        <?php  if(isset($_SESSION['user'])) : ?>
-            <a href="index.php?logout='1'">
-                <i class="fas fa-power-off fa-lg" style="color: #bb1333;"> </i> <span class="logout"> Logout</span></a>
-        <?php  endif ?>
+            <?php  if(isset($_SESSION['user'])) : ?>
+                <a href="index.php?logout='1'">
+                    <i class="fas fa-power-off fa-lg" style="color: #bb1333;"> </i> <span class="logout"> Logout</span>
+                </a>
+            <?php  endif ?>
         </div>
+
     </div>
     <!-- End of Dashboard Navigation  -->
 
@@ -42,7 +43,7 @@
     <div class="main-body">
 
     <?php  if(isset($_SESSION['user'])) : ?>
-        <h1 class="display-4">Welcome <?php echo $_SESSION['user']['username'];?></strong>
+        <h1 class="display-4">Welcome <?php echo $_SESSION['user']['username'];?>
     <?php  endif ?>
 
     <p class="index-slogan mb-4">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
@@ -50,39 +51,39 @@
     <div class="card-section">
 
         <a href="#">
-        <div class="card-container card-1 shrink">
-            <header class="card-header">
-                <i class="fas fa-vote-yea fa-3x"></i>
-            </header>
+            <div class="card-container card-1 shrink">
+                <header class="card-header">
+                    <i class="fas fa-vote-yea fa-3x"></i>
+                </header>
                 <footer class="card-footer">
                     <p>cast vote</p>
                 </footer>
-        </div>
+            </div>
         </a>
 
         <a href="#">
-        <div class="card-container card-2 shrink">
-            <header class="card-header">
-                <i class="fas fa-user-friends fa-3x"></i>
-            </header>
+            <div class="card-container card-2 shrink">
+                <header class="card-header">
+                    <i class="fas fa-user-friends fa-3x"></i>
+                </header>
                 <footer class="card-footer">
                     <p>view candidates</p>
                 </footer>
-        </div>
+            </div>
         </a>
 
         <a href="#">
-        <div class="card-container card-3 shrink">
-            <header class="card-header">
-                <i class="fas fa-chart-pie fa-3x"></i>
-            </header>
+            <div class="card-container card-3 shrink">
+                <header class="card-header">
+                    <i class="fas fa-chart-pie fa-3x"></i>
+                </header>
                 <footer class="card-footer">
                     <p>check poll results</p>
                 </footer>
-        </div>
+            </div>
         </a>
-
     </div>
+
     <!-- End of main body  -->
 </body>
 </html>
