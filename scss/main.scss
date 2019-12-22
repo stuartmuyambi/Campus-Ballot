@@ -297,6 +297,15 @@ $shadow: #202020;
     grid-template-columns: repeat(3, 250px);
     grid-column-gap: 30px;
     justify-content: center;
+
+    a{
+        color: #fff;
+
+
+        &:hover{
+            color: #fff;
+        }
+    }
 }
 
 .card-container{
@@ -345,7 +354,7 @@ $shadow: #202020;
     background-color: #f6bb42;
 }
 
-/* Shrink */
+// Shrink cards on hover 
 .shrink {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);

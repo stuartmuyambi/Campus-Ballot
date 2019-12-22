@@ -49,38 +49,38 @@
 
     <div class="card-section">
 
+        <a href="#">
         <div class="card-container card-1 shrink">
             <header class="card-header">
                 <i class="fas fa-vote-yea fa-3x"></i>
             </header>
-            <a href="#">
                 <footer class="card-footer">
                     <p>cast vote</p>
                 </footer>
-            </a>
         </div>
+        </a>
 
+        <a href="#">
         <div class="card-container card-2 shrink">
             <header class="card-header">
                 <i class="fas fa-user-friends fa-3x"></i>
             </header>
-            <a href="#">
                 <footer class="card-footer">
                     <p>view candidates</p>
                 </footer>
-            </a>
         </div>
+        </a>
 
+        <a href="#">
         <div class="card-container card-3 shrink">
             <header class="card-header">
                 <i class="fas fa-chart-pie fa-3x"></i>
             </header>
-            <a href="#">
                 <footer class="card-footer">
                     <p>check poll results</p>
                 </footer>
-            </a>
         </div>
+        </a>
 
     </div>
     <!-- End of main body  -->
