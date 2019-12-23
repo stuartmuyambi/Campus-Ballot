@@ -380,14 +380,11 @@
 .accordion {
   background-color: #f0f0f0;
   cursor: pointer;
-  padding: 18px;
+  padding: 25px;
   width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-left: 7px solid #0a71c2;
+  border-left: 6px solid #0a71c2;
 }
 
 .active, .accordion:hover {
