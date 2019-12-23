@@ -13,8 +13,42 @@
   src: url("../fonts/Arial/Arial-Regular.TTF");
 }
 
-.login-body, .index-body {
+.login-body,
+.index-body,
+.main-body {
   background-color: #252b35;
+}
+
+.main-body .display-4 {
+  color: #fff;
+  line-height: 2;
+  line-height: 1.2;
+  font-weight: 300;
+  font-size: 3.5rem;
+  font-size: 2.9rem;
+  text-align: center;
+}
+
+.main-body .index-slogan {
+  line-height: 2;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.9;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: -0.002em;
+}
+
+.logout {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 900;
+  color: #363e4d;
+  text-align: center;
+  letter-spacing: 0.065em;
+  font-family: 'Arial-Bold', sans-serif;
 }
 
 .form-container {
@@ -174,15 +208,6 @@
   border: 2px solid #fafafa00;
 }
 
-.search-input {
-  border: none;
-  width: 100%;
-  color: #939393;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #eeeeee;
-}
-
 .dash-username {
   color: #384047;
   font-weight: 600;
@@ -212,42 +237,6 @@
 
 .dash-section-3 a:hover {
   text-decoration: none;
-}
-
-.main-body {
-  background-color: #252b35;
-}
-
-.main-body .display-4 {
-  color: #fff;
-  line-height: 2;
-  line-height: 1.2;
-  font-weight: 300;
-  font-size: 3.5rem;
-  font-size: 2.9rem;
-  text-align: center;
-}
-
-.main-body .index-slogan {
-  line-height: 2;
-  color: #fff;
-  font-size: 1.5rem;
-  line-height: 1.9;
-  font-weight: 100;
-  text-align: center;
-  letter-spacing: -0.002em;
-}
-
-.logout {
-  margin-top: 4%;
-  margin-bottom: 4%;
-  font-size: 1.1rem;
-  text-align: center;
-  font-weight: 900;
-  color: #363e4d;
-  text-align: center;
-  letter-spacing: 0.065em;
-  font-family: 'Arial-Bold', sans-serif;
 }
 
 .main-section-container {

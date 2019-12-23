@@ -1,4 +1,4 @@
-// Imported Fonts
+// ==========  Imported Fonts  ==========
 @font-face {
     font-family: 'Arial-Bold';
     src: url('../fonts/Arial/Arial-Bold.TTF');
@@ -13,17 +13,66 @@
     font-family: 'Arial-Regular';
     src: url('../fonts/Arial/Arial-Regular.TTF');
 }
-// SCSS Variables
+
+// ========== End of Imported Fonts ==========
+
+
+// ========== SCSS Variables ==========
 $white: #fafafa;
 $shadow: #202020;
 $blue:darken(#2196f3, 14%);
 
-// Body styles
-.login-body, .index-body {
+//========== End SCSS Variables ==========
+
+
+//========== Custom Body Styles ==========
+.login-body, 
+.index-body, 
+.main-body {
     background-color:#252b35;
    }
 
-// Form styles
+// Main body styles
+.main-body{
+    .display-4 {
+        color: #fff;
+        line-height: 2;
+        line-height: 1.2;
+        font-weight: 300;
+        font-size: 3.5rem;
+        font-size: 2.9rem;
+        text-align: center;
+      }
+
+      .index-slogan {
+        line-height: 2;
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1.9;
+        font-weight: 100;
+        text-align: center;
+        letter-spacing: -0.002em;
+      }
+
+    }
+        .logout {
+            margin-top: 4%;
+            margin-bottom: 4%;
+            font-size: 1.1rem;
+            text-align: center;
+            font-weight: 900;
+            color: #363e4d;
+            text-align: center;
+            letter-spacing: 0.065em;
+            font-family: 'Arial-Bold', sans-serif;
+            //   letter-spacing: 0.018em;
+
+          }
+
+//========== End Custom Body Styles ==========
+
+
+//========== Form styles ==========
 .form-container {
     width: 80%;
     display: grid;
@@ -142,7 +191,11 @@ $blue:darken(#2196f3, 14%);
 
 }
 
-// Dashboard Styles
+
+//========== End of Form Styles ==========
+
+
+//========== Dashboard Styles ==========
 .dash-body{
     background-color: #eeeeee;
 }
@@ -180,15 +233,6 @@ $blue:darken(#2196f3, 14%);
     border: 2px solid #fafafa00;
 }
 
-.search-input {
-    border: none;
-    width: 100%;
-    color: #939393;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #eeeeee;
-}
-
 .dash-username {
     color: #384047;
     font-weight: 600;
@@ -219,45 +263,6 @@ $blue:darken(#2196f3, 14%);
     }
 }
 
-// Main body styles
-.main-body{
-    background-color: #252b35;
-
-    .display-4 {
-        color: #fff;
-        line-height: 2;
-        line-height: 1.2;
-        font-weight: 300;
-        font-size: 3.5rem;
-        font-size: 2.9rem;
-        text-align: center;
-      }
-
-      .index-slogan {
-        line-height: 2;
-        color: #fff;
-        font-size: 1.5rem;
-        line-height: 1.9;
-        font-weight: 100;
-        text-align: center;
-        letter-spacing: -0.002em;
-      }
-
-    }
-        .logout {
-            margin-top: 4%;
-            margin-bottom: 4%;
-            font-size: 1.1rem;
-            text-align: center;
-            font-weight: 900;
-            color: #363e4d;
-            text-align: center;
-            letter-spacing: 0.065em;
-            font-family: 'Arial-Bold', sans-serif;
-            //   letter-spacing: 0.018em;
-
-          }
-
 // Dash main sections
 .main-section-container {
     display: grid;
@@ -274,7 +279,10 @@ $blue:darken(#2196f3, 14%);
     }
 }
 
-// Cards section
+
+//========== End of Dashboard Styles ==========
+
+//========== Card Styles ==========
 .card-section {
     display: grid;
     grid-column-gap: 30px;
@@ -352,8 +360,10 @@ $blue:darken(#2196f3, 14%);
       -webkit-transform: scale(0.9);
   }
 
-  // Candidates container
+//========== End of Card Styles ==========
 
+
+//========== Candidate Container and Accordion Styles ==========
   .candidates-container{
       background-color: #cecece;
       width: 80%;
@@ -382,7 +392,6 @@ $blue:darken(#2196f3, 14%);
     
 }
 
-// Add a background color to the button if it is clicked on (add the .active class with JS), andwhen you move the mouse over it (hover) 
 .active, .accordion:hover{
     background-color: lighten(#252b35, 9%);
     color: #fff;    
@@ -412,3 +421,5 @@ $blue:darken(#2196f3, 14%);
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
 }
+
+//========== End Candidates container and Accordion Styles ==========
