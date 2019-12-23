@@ -1,5 +1,6 @@
 <?php 
-    include('functions.php') 
+    include('functions.php');
+    $pageTitle = "Create account - Campus Ballot";
 ?>
 
 <?php include("includes/boilerplate.php"); ?>
