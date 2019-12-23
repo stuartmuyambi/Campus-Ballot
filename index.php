@@ -1,7 +1,6 @@
 <?php
-
-    $pageTitle = "Home - Campus Ballot";
     include('functions.php'); //add function.php script to page
+    $pageTitle = $_SESSION['user']['username'];
 
     //Prevent unauthorised user access to this page
     if (!isLoggedIn()) {
