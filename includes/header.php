@@ -14,7 +14,7 @@
     <!-- Dashboard Navigation Menu -->
     <div class="dash-nav">
         <div class="dash-section-1">
-            <h2 class="dash-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
+            <h2 class="dash-logo"><a href="index.php"> <i class="fas fa-vote-yea"></i> Campus Ballot</a></h2>
         </div>
 
         <div class="dash-section-2"></div>
