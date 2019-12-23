@@ -51,6 +51,18 @@
   font-family: 'Arial-Bold', sans-serif;
 }
 
+.nav-icons a {
+  color: #363e4d;
+}
+
+.nav-icons a:hover {
+  color: #606e89;
+}
+
+.nav-icons .icon {
+  padding-right: 12px;
+}
+
 .form-container {
   width: 80%;
   display: -ms-grid;

@@ -55,19 +55,35 @@ $blue:darken(#2196f3, 14%);
       }
 
     }
-        .logout {
-            margin-top: 4%;
-            margin-bottom: 4%;
-            font-size: 1.1rem;
-            text-align: center;
-            font-weight: 900;
-            color: #363e4d;
-            text-align: center;
-            letter-spacing: 0.065em;
-            font-family: 'Arial-Bold', sans-serif;
-            //   letter-spacing: 0.018em;
+    .logout {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-size: 1.1rem;
+        text-align: center;
+        font-weight: 900;
+        color: #363e4d;
+        text-align: center;
+        letter-spacing: 0.065em;
+        font-family: 'Arial-Bold', sans-serif;
+        //   letter-spacing: 0.018em;
 
-          }
+    }
+
+    .nav-icons {
+        a{
+            color: #363e4d;
+            
+            &:hover {
+                color: lighten(#363e4d, 20%);
+            }
+        }
+
+        .icon {
+            padding-right: 12px;
+        }
+
+    }
+
 
 //========== End Custom Body Styles ==========
 
