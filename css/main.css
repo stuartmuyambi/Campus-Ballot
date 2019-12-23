@@ -13,11 +13,7 @@
   src: url("../fonts/Arial/Arial-Regular.TTF");
 }
 
-.login-body {
-  background-color: #252b35;
-}
-
-.index-body {
+.login-body, .index-body {
   background-color: #252b35;
 }
 
