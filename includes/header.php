@@ -21,6 +21,7 @@
 
         <div class="dash-section-3 nav-icons">
             <a href="index.php"><i class="fas fa-th fa-lg icon"></i></a>            
+            <a href="#"><i class="fas fa-bell fa-lg icon"></i></a>
             <a href="#"><i class="fas fa-user-circle fa-lg icon"></i></a>
             <?php  if(isset($_SESSION['user'])) : ?>
                 <a href="index.php?logout='1'">
