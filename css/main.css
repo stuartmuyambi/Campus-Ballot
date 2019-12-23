@@ -389,6 +389,9 @@
   width: 100%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  font-family: 'Arial-Bold';
+  font-size: 1.250rem;
+  text-transform: capitalize;
   border-left: 6px solid #0a71c2;
 }
 
