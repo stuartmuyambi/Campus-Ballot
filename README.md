@@ -4,8 +4,4 @@ This is a project I initiated as part of my end of semester project. It is a ver
 
 >LOGIN PAGE
 
-![Login page](images\README\login.png)
-![Login page](images\README\login2.png)
-![Login page](images\README\login3.png)
-
 
