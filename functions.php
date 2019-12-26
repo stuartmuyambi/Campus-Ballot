@@ -16,6 +16,7 @@ if(isset($_POST['register_btn'])) {
 
 // REGISTER USER
 function register() {
+    
     // call these variables with the global keyword to make them available in function
     global $db, $errors, $username, $email;
 
