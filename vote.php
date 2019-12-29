@@ -15,7 +15,7 @@
     <!-- Main Body  -->
     <div class="main-body">
         <div class="voters-container mt-5 pt-5 pb-5">
-            <div class="table-container shadow">
+            <div class="table-container shadow pb-5">
                 <div class="ribbon">
                     ...
                 </div>

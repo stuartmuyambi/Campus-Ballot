@@ -377,7 +377,7 @@
 .table-container {
   background-color: #fff;
   width: 80%;
-  height: 10rem;
+  height: auto;
   margin: auto;
   border-radius: 8px;
 }
