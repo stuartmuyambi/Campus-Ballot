@@ -181,8 +181,7 @@ function isAdmin() {
         return false;
     }
 }
-
-// Poll connection to database
+// Function that connects poll to the database
 function pdo_connect_mysql() {
     // Update the details below with your MySQL details
     $DATABASE_HOST = 'localhost';
