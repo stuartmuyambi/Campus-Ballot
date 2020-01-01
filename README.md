@@ -7,6 +7,7 @@ This is a project I initiated as part of my end of semester project. It is a ver
 2. Voter
 
 >ADMIN FEATURES
+
 1. Login
 2. Manage Administrators
 3. Manage Candidates
@@ -15,3 +16,13 @@ This is a project I initiated as part of my end of semester project. It is a ver
 6. Update Password
 7. Update Profiles
 8. View all users
+
+
+> Voter/ User Features
+
+1. Registration
+2. Login
+3. View and Update Profile
+4. Choose Positions for voting
+5. Give vote.
+6. Logout
