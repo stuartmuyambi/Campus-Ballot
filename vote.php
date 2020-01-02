@@ -22,6 +22,14 @@
     <div class="main-body">
         <div class="voters-container mt-5 pt-5 pb-5">
             <div class="table-container shadow pt-5 pl-5 pr-5 pb-5">
+
+                <div class="input-group pb-4">
+                    <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Search guild posts...">
+                </div>
+
                 <table class="table table-striped">
                     <thead class="thead-dark">
                         <tr>
