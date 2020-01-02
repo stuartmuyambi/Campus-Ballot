@@ -25,9 +25,9 @@
 
                 <div class="input-group pb-4">
                     <div class="input-group-prepend">
-                    <div class="input-group-text">@</div>
+                    <div class="input-group-text"><i class="fas fa-search"></i></div>
                     </div>
-                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Search guild posts...">
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Search">
                 </div>
 
                 <table class="table table-striped">
