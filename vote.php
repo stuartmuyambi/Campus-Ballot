@@ -27,10 +27,10 @@
                     <div class="input-group-prepend">
                     <div class="input-group-text"><i class="fas fa-search"></i></div>
                     </div>
-                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Search">
+                    <input type="text" class="form-control" id="myInput" onkeyup="filterTable()" placeholder="Search">
                 </div>
 
-                <table class="table table-striped">
+                <table class="table table-striped" id="myTable">
                     <thead class="thead-dark">
                         <tr>
                         <th scope="col">#</th>
