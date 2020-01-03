@@ -28,7 +28,7 @@
                     <i class="fas fa-vote-yea fa-3x mt-4"></i>
                 </header>
                 <footer class="card-footer">
-                    <p>cast vote</p>
+                    <p> i want to cast my vote</p>
                 </footer>
             </div>
         </a>
@@ -39,7 +39,7 @@
                     <i class="fas fa-user-friends fa-3x mt-4"></i>
                 </header>
                 <footer class="card-footer">
-                    <p>view candidates</p>
+                    <p>i want to view candidates</p>
                 </footer>
             </div>
         </a>
@@ -50,7 +50,7 @@
                     <i class="fas fa-chart-pie fa-3x mt-4"></i>
                 </header>
                 <footer class="card-footer">
-                    <p>check poll results</p>
+                    <p>i want to check poll results</p>
                 </footer>
             </div>
         </a>
