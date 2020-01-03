@@ -19,7 +19,7 @@
 
         <div class="dash-section-2"></div>
 
-        <div class="dash-section-3 nav-icons">
+        <div class="dash-section-3 nav-icons pr-5">
             <a href="index.php"><i class="fas fa-home fa-lg icon"></i></a>
             <a href="#"><i class="fas fa-bell fa-lg icon"></i></a>            
             <a href="#"><i class="fas fa-calendar-alt fa-lg icon"></i></a>            
