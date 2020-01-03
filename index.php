@@ -15,7 +15,7 @@
     <div class="main-body">
 
     <?php  if(isset($_SESSION['user'])) : ?>
-        <h1 class="display-4 mt-3">Welcome <?php echo $_SESSION['user']['username'];?>
+        <h1 class="display-4 mt-3">Hello <?php echo $_SESSION['user']['username'];?>
     <?php  endif ?>
 
     <p class="index-slogan mt-2 mb-4">We're here to help you vote, Let your voice be heard. Tell us what you'd like to achieve:</p>
