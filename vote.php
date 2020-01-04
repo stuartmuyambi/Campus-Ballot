@@ -7,6 +7,13 @@
         $_SESSION['msg'] = "Please login to continue";
         header('location: login.php');
     }
+
+    // Connect to MySQL
+    $pdo = pdo_connect_mysql();
+
+    // MySQL query that selects all the polls and poll answers
+    $stmt = $pdo->query('SELECT p.*, GROUP_CONCAT(pa.title ORDER BY pa.id) AS answers FROM polls p LEFT JOIN poll_answers pa ON pa.poll_id = p.id GROUP BY p.id');
+    $polls = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <?php include("includes/header.php"); ?>
@@ -23,7 +30,7 @@
                     <input type="text" class="form-control" id="myInput" onkeyup="filterTable()" placeholder="Search">
                 </div>
                 
-                <table class="table">
+                <table class="table" id="myTable">
                     <thead class="thead-dark">
                         <tr>
                         <th scope="col">#</th>
@@ -33,24 +40,17 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <?php foreach ($polls as $poll): ?>
                         <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                            <th scope="row"><?=$poll['id']?></th>
+                            <td><?=$poll['title']?></td>
+                            <td><?=$poll['answers']?></td>
+                            <td>
+                                <a href="vote.php?id=<?=$poll['id']?>" class="btn btn-success" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
+                                <a href="delete.php?id=<?=$poll['id']?>" class="btn btn-danger" title="Delete Poll"><i class="fas fa-trash fa-xs"></i></a>
+                            </td>
                         </tr>
-                        <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        </tr>
-                        <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        </tr>
+                        <?php endforeach; ?>
                     </tbody>
                     </table>
             </div>
