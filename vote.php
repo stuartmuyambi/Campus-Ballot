@@ -23,36 +23,6 @@
         <div class="voters-container mt-5 pt-5 pb-5">
             <div class="table-container shadow pt-5 pl-5 pr-5 pb-5">
 
-                <div class="input-group pb-4">
-                    <div class="input-group-prepend">
-                    <div class="input-group-text"><i class="fas fa-search"></i></div>
-                    </div>
-                    <input type="text" class="form-control" id="myInput" onkeyup="filterTable()" placeholder="Search">
-                </div>
-                
-                <table class="table" id="myTable">
-                    <thead class="thead-dark">
-                        <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach ($polls as $poll): ?>
-                        <tr>
-                            <th scope="row"><?=$poll['id']?></th>
-                            <td><?=$poll['title']?></td>
-                            <td><?=$poll['answers']?></td>
-                            <td>
-                                <a href="vote.php?id=<?=$poll['id']?>" class="btn btn-success" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
-                                <a href="delete.php?id=<?=$poll['id']?>" class="btn btn-danger" title="Delete Poll"><i class="fas fa-trash fa-xs"></i></a>
-                            </td>
-                        </tr>
-                        <?php endforeach; ?>
-                    </tbody>
-                    </table>
             </div>
         </div>
     </div>
