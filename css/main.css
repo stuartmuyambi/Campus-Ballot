@@ -243,7 +243,7 @@
   display: grid;
   height: 3.2rem;
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: #eeeeee;
   -ms-grid-columns: 18% 64% 20%;
       grid-template-columns: 18% 64% 20%;
   border-bottom: 2px solid #dee0e0;
