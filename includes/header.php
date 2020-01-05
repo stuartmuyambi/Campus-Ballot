@@ -21,8 +21,8 @@
 
         <div class="dash-section-3 nav-icons pr-5">
             <a href="index.php" title="home"><i class="fas fa-home fa-lg icon"></i></a>
-            <a href="#" title="Deadline"><i class="fas fa-calendar-alt fa-lg icon"></i></a>            
-            <a href="#" title="Profile"><i class="fas fa-user-circle fa-lg icon"></i></a>
+            <a href="#" title="Deadline"><i class="fas fa-envelope fa-lg icon"></i></a>            
+            <a href="#" title="Profile"><i class="fas fa-bell fa-lg icon"></i></a>
             <?php  if(isset($_SESSION['user'])) : ?>
                 <a href="index.php?logout='1'" title="Logout">
                     <i class="fas fa-power-off fa-lg icon-logout"> </i>
