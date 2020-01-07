@@ -27,7 +27,4 @@ This is a project I initiated as part of my end of semester project. It is a ver
 5. Give vote.
 6. Logout
 
-> Database usage.
 
-The database is in the dabase folder. You can import it from your favourite local server.  
-You can user Wamp, Xamp or Mamp. The database will be updated with more details.
