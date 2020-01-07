@@ -1,6 +1,6 @@
 
 
--- http://www.phpmyadmin.net
+
 --
 -- Host: localhost
 -- Generation Time: Jan 07, 2020 at 08:35 PM
