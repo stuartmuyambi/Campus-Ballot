@@ -1,5 +1,5 @@
 
--- version 4.0.4
+
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
