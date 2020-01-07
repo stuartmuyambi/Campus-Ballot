@@ -26,3 +26,7 @@ This is a project I initiated as part of my end of semester project. It is a ver
 4. Choose Positions for voting
 5. Give vote.
 6. Logout
+
+> Database usage.
+
+The database is in the dabase folder. You can import it from your favourite local server.
