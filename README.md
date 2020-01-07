@@ -16,6 +16,8 @@ This is a project I initiated as part of my end of semester project. It is a ver
 6. Update Password
 7. Update Profiles
 8. View all users
+9. Create Profiles.
+10. Delete user profiles.
 
 
 > Voter/ User Features
