@@ -17,6 +17,7 @@ In the screenshot below, users have an option to toggle password visibility usin
 Unauthorized users have an option to create there own account using the form shown in the screenshot below.
 ![image](images/README/signup.jpg)
 
+After successfully login in to the system, users are redirected to the home page where they can continue to vote for there favourite candidtes.
 ![image](images/README/home.jpg)
 
 ## Login Error Message Screenshots
