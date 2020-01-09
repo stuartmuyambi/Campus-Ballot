@@ -27,11 +27,11 @@ Form Validation is done with vanilla PHP to prevent unauthorized access of the a
 ![image](images/README/login-2.jpg)
 ![image](images/README/login-4.jpg)
 
-## USERS
+## Authorised Users
 1. Admin
 2. Voter
 
-## ADMIN FEATURES
+## Admin Features
 
 1. Login
 2. Manage Administrators
