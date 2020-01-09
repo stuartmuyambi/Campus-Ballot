@@ -12,20 +12,16 @@ Campus Ballot is an automated online voting app build to assist in conducting of
 ![image](images/README/signup.jpg)
 ![image](images/README/home.jpg)
 
-## Errors
+## Errors Screenshots
+---
 ![image](images/README/login-2.jpg)
 ![image](images/README/login-4.jpg)
 
-
-
-
-
-
->USERS
+## USERS
 1. Admin
 2. Voter
 
->ADMIN FEATURES
+## ADMIN FEATURES
 
 1. Login
 2. Manage Administrators
@@ -39,7 +35,7 @@ Campus Ballot is an automated online voting app build to assist in conducting of
 10. Delete user profiles.
 
 
-> Voter/ User Features
+## Voter / User Features
 
 1. Registration
 2. Login
