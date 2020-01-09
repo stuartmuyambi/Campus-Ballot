@@ -14,6 +14,8 @@ Campus Ballot is an automated online voting app build to assist in conducting of
 
 ## Login Error Message Screenshots
 ---
+Form Validation is done with vanilla PHP to prevent unauthorized access of the app to users who do not have accounts.
+
 ![image](images/README/login-2.jpg)
 ![image](images/README/login-4.jpg)
 
