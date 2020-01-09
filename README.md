@@ -1,7 +1,9 @@
 ![image](images/README/logo.jpg)
 # Online Voting Web Application
 
-This is a project I initiated as part of my end of semester project. It is a very simple Online voting app am working on which gives users capabilities to vote for there favourite candidates at there universities online. No advanced framework is used just vanilla PHP with some minor front end CSS Frameworks which include; Bootstrap, Hover.css AND I used fontawesome for icons.
+Campus Ballot is an automated online voting app build to assist in conducting of guild elections in local universities.
+
+ The project was initiated as part of my end of semester project. It is a very simple Online voting app am working on which gives users capabilities to vote for there favourite candidates at there universities online. 
 
 >USERS
 1. Admin
