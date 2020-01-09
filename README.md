@@ -7,6 +7,8 @@ Campus Ballot is an automated online voting app build to assist in conducting of
 
  ## Screenshots
  ---
+ Below is a screenshot of the main login page. If a user isn't logged in and tries to access a page that is only supporsed to be accessed by a logged in user, they will be redirected to the login page.
+ 
 ![image](images/README/login-1.jpg)
 ![image](images/README/login-3.jpg)
 ![image](images/README/signup.jpg)
