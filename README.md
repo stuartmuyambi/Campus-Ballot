@@ -12,9 +12,11 @@ Campus Ballot is an automated online voting app build to assist in conducting of
 ![image](images/README/login-1.jpg)
 
 In the screenshot below, users have an option to toggle password visibility using the toggle icon below the password input field.
-
 ![image](images/README/login-3.jpg)
+
+Unauthorized users have an option to create there own account using the form shown in the screenshot below.
 ![image](images/README/signup.jpg)
+
 ![image](images/README/home.jpg)
 
 ## Login Error Message Screenshots
