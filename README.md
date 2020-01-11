@@ -35,7 +35,7 @@ Form Validation is done with vanilla PHP to prevent unauthorized access of the a
 
 1. Login
 2. Promote and Demote Administrators
-3. Manage Candidates
+3. Manage Candidates and voters
 4. Mange Positions
 5. Check Poll Results
 6. Update Password
