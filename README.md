@@ -34,7 +34,7 @@ Form Validation is done with vanilla PHP to prevent unauthorized access of the a
 ## Admin Features
 
 1. Login
-2. Manage Administrators
+2. Promote and Demote Administrators
 3. Manage Candidates
 4. Mange Positions
 5. Check Poll Results
