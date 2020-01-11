@@ -28,7 +28,7 @@ Form Validation is done with vanilla PHP to prevent unauthorized access of the a
 ![image](images/README/login-4.jpg)
 
 ## Authorised Users
-1. Admin
+1. Administrator
 2. Voter
 
 ## Admin Features
