@@ -14,8 +14,9 @@
 
     <!-- Main Body  -->
     <div class="main-body">
-        <section class="voters-container mt-2 pt-5 pb-5">
+        <section class="mt-2 pt-5 pb-5">
             <div class="table-container shadow pt-5 pl-5 pr-5 pb-5">
+            
                
             </div>
         </section>
