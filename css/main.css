@@ -418,11 +418,15 @@
 }
 
 .thumbnail-heading {
-  font-family: 'Arial-Bold', sans-serif;
+  font-family: 'Arial-Regular', sans-serif;
   font-size: 1.1rem;
-  line-height: 2;
   font-weight: 900;
   font-style: normal;
   color: #313947;
   font-weight: 100;
+}
+
+.select {
+  background-color: #e3e3e8;
+  width: 100%;
 }

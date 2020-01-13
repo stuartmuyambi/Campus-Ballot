@@ -4897,14 +4897,12 @@ input[type="button"].btn-block {
 
 .badge {
   display: inline-block;
-  padding: 0.25em 0.4em;
+  padding: 0.10em 0.5em;
   font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
+  font-weight: 600;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.25rem;
+  border-radius: 10px;
+  margin-left: 3px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -4934,8 +4932,8 @@ a.badge:hover, a.badge:focus {
 }
 
 .badge-primary {
-  color: #fff;
-  background-color: #007bff;
+  color: #447fd5;
+  background-color: #c6d3e6;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {

@@ -21,7 +21,9 @@
 
             <section class="candidate-thumbnail-container">
                 <div class="candidate-thumbnail">
-                    <h3 class="thumbnail-heading">Guild President</h3>
+                    <h3 class="thumbnail-heading">Guild President  <span class="badge badge-primary">4</span></h3>
+
+                    <span class="select"></span>
                 </div>
                 <div class="candidate-thumbnail">...</div>
                 <div class="candidate-thumbnail">...</div>
