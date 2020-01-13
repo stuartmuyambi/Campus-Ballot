@@ -404,7 +404,16 @@ $blue:darken(#2196f3, 14%);
     margin: auto;
     border-radius: 8px;
 
+
 }
+
+.candidate-thumbnail {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-top: 4px solid #07a7f3;
+}
+
 
 .voting-heading{
     font-family: 'Arial-Bold', sans-serif;
@@ -419,48 +428,3 @@ $blue:darken(#2196f3, 14%);
     font-weight: 600;
     color: #2f75c9;
 }
-.accordion {
-    background-color: #f0f0f0;
-    cursor: pointer;    
-    padding: 25px;    
-    width: 100%;
-    transition: 0.4s;
-    font-family: 'Arial-Bold';
-    font-size: 1.250rem;
-    text-transform: capitalize;
-    color: #313947;
-    border-left: 6px solid #0a71c2;
-    
-}
-
-.active, .accordion:hover{
-    background-color: lighten(#252b35, 9%);
-    color: #fff;    
-}
-
-// Accordion Icon
-.accordion:after {
-        content: '\02795';/* Unicode character for "plus" sign (+) */    
-        font-size: 13px;color: #777;    
-        float: right;margin-left: 5px;
-}
-
-.active:after {    
-    content: "\2796";/* Unicode character for "minus" sign (-) */
-}
-    
-// Style the accordion panel. Note: hidden by default
-.panel {    
-    padding: 0 18px;    
-    background-color: white;
-    max-height: 0;    
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-.top-accordion {
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-}
-
-//========== End Candidates container and Accordion Styles ==========
