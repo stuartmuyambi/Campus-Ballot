@@ -218,8 +218,6 @@ $blue:darken(#2196f3, 14%);
 
 .dash-logo {
     font-weight: 900;
-    margin-top: 4%;
-    margin-bottom: 4%;
     font-size: 1.4rem;
     text-align: center;
     letter-spacing: -0.029em;
@@ -268,18 +266,21 @@ $blue:darken(#2196f3, 14%);
   }
 
 .dash-nav {
-    display: grid;
-    height: 3.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
     overflow-x: hidden;
     background-color: #eeeeee;
-    grid-template-columns: 18% 64% 20%;
     border-bottom: 2px solid #dee0e0;
+    justify-content: space-around;
 
 }
 
+.dash-section-1 {
+    margin-right: auto;
+}
+
 .dash-section-3{
-    margin-top: 4%;
-    margin-bottom: 4%;
     text-align: center;
 
     a:hover{
