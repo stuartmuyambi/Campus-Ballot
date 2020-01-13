@@ -388,11 +388,14 @@
   display: flex;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .candidate-thumbnail {
   background-color: #fff;
-  width: 310px;
+  width: 320px;
   border-radius: 5px;
   border-top: 4px solid #07a7f3;
 }
