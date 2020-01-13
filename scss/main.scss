@@ -409,14 +409,17 @@ $blue:darken(#2196f3, 14%);
 .candidate-thumbnail-container {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .candidate-thumbnail {
-    background-color: #fff;
-    width: 320px;
+    margin: 10px;
+    padding: 10px;
+    width: 19rem;
+    height: 18rem;
     border-radius: 5px;
-    border-top: 4px solid #07a7f3;
+    background-color: #fff;
+    border-top: 5px solid #07a7f3;
 }
 
 
@@ -433,4 +436,14 @@ $blue:darken(#2196f3, 14%);
 .home-pagination {
     font-weight: 600;
     color: #07a7f3;
+}
+
+.thumbnail-heading{
+    font-family: 'Arial-Bold', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2;
+    font-weight: 900;
+    font-style: normal;
+    color: #313947;
+    font-weight: 100;
 }

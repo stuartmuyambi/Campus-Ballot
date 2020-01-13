@@ -20,7 +20,9 @@
             <hr class="pb-4">
 
             <section class="candidate-thumbnail-container">
-                <div class="candidate-thumbnail">...</div>
+                <div class="candidate-thumbnail">
+                    <h3 class="thumbnail-heading">Guild President</h3>
+                </div>
                 <div class="candidate-thumbnail">...</div>
                 <div class="candidate-thumbnail">...</div>
             </section>
