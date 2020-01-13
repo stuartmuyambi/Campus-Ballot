@@ -398,7 +398,7 @@ $blue:darken(#2196f3, 14%);
       
     }
 .thumbs-container {
-    background-color: #ebebee;
+    background-color: #e3e3e8;
     width: 80%;
     height: auto;
     margin: auto;
@@ -418,7 +418,7 @@ $blue:darken(#2196f3, 14%);
     width: 19rem;
     height: 18rem;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: lighten(#ededf0, 3%);
     border-top: 5px solid #07a7f3;
 }
 
