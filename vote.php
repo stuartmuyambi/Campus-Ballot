@@ -23,7 +23,20 @@
                 <div class="candidate-thumbnail">
                     <h3 class="thumbnail-heading">Guild President  <span class="badge badge-primary">4</span></h3>
 
-                    <span class="select"></span>
+                    <div class="select shadow-sm mb-2 mt-3">
+                        <div class="custom-control custom-radio ml-2">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input ml-3">
+                            <label class="custom-control-label" for="customRadio1">Lemi Simon</label>
+                        </div>
+                    </div>
+
+                    <div class="select shadow-sm">
+                        <div class="custom-control custom-radio ml-2">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input ml-3">
+                            <label class="custom-control-label" for="customRadio2">Rukundo Irene</label>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="candidate-thumbnail">...</div>
                 <div class="candidate-thumbnail">...</div>

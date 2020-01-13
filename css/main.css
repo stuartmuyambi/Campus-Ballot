@@ -424,9 +424,12 @@
   font-style: normal;
   color: #313947;
   font-weight: 100;
+  padding-top: 7px;
 }
 
 .select {
-  background-color: #e3e3e8;
+  background-color: #fff;
   width: 100%;
+  padding: 7px;
+  border-radius: 7px;
 }
