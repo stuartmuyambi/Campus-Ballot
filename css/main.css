@@ -190,6 +190,7 @@
 .dash-logo {
   font-weight: 900;
   font-size: 1.4rem;
+  padding-left: 3rem;
   text-align: center;
   letter-spacing: -0.029em;
   text-transform: capitalize;
@@ -243,6 +244,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: auto;
+  padding-top: 12px;
   overflow-x: hidden;
   background-color: #eeeeee;
   border-bottom: 2px solid #dee0e0;
@@ -256,6 +258,7 @@
 
 .dash-section-3 {
   text-align: center;
+  margin-right: 3rem;
 }
 
 .dash-section-3 a:hover {

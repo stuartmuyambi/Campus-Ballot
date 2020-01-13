@@ -17,9 +17,7 @@
             <h2 class="dash-logo"><a href="index.php"> <i class="fas fa-vote-yea"></i> Campus Ballot</a></h2>
         </div>
 
-        <div class="dash-section-2"></div>
-
-        <div class="dash-section-3 nav-icons pr-5">
+        <div class="dash-section-3 nav-icons">
             <a href="index.php" title="home"><i class="fas fa-home fa-lg icon"></i></a>
             <a href="#" title="Messages"><i class="fas fa-envelope fa-lg icon"></i></a>            
             <a href="#" title="Notifications"><i class="fas fa-bell fa-lg icon"></i></a>

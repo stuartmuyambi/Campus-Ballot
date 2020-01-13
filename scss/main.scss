@@ -219,6 +219,7 @@ $blue:darken(#2196f3, 14%);
 .dash-logo {
     font-weight: 900;
     font-size: 1.4rem;
+    padding-left: 3rem;
     text-align: center;
     letter-spacing: -0.029em;
     text-transform: capitalize;
@@ -269,6 +270,7 @@ $blue:darken(#2196f3, 14%);
     display: flex;
     flex-wrap: wrap;
     height: auto;
+    padding-top: 12px;
     overflow-x: hidden;
     background-color: #eeeeee;
     border-bottom: 2px solid #dee0e0;
@@ -282,6 +284,7 @@ $blue:darken(#2196f3, 14%);
 
 .dash-section-3{
     text-align: center;
+    margin-right: 3rem;
 
     a:hover{
         text-decoration: none;
