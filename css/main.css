@@ -382,9 +382,17 @@
   border-radius: 8px;
 }
 
+.candidate-thumbnail-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
 .candidate-thumbnail {
-  width: 300px;
   background-color: #fff;
+  width: 310px;
   border-radius: 5px;
   border-top: 4px solid #07a7f3;
 }
@@ -400,5 +408,5 @@
 
 .home-pagination {
   font-weight: 600;
-  color: #2f75c9;
+  color: #07a7f3;
 }

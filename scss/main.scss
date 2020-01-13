@@ -404,15 +404,20 @@ $blue:darken(#2196f3, 14%);
     margin: auto;
     border-radius: 8px;
 
+}
 
+.candidate-thumbnail-container {
+    display: flex;
+    flex-flow: wrap;
 }
 
 .candidate-thumbnail {
-    width: 300px;
     background-color: #fff;
+    width: 310px;
     border-radius: 5px;
     border-top: 4px solid #07a7f3;
 }
+
 
 
 .voting-heading{
@@ -426,5 +431,5 @@ $blue:darken(#2196f3, 14%);
 
 .home-pagination {
     font-weight: 600;
-    color: #2f75c9;
+    color: #07a7f3;
 }
