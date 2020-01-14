@@ -287,14 +287,16 @@
 }
 
 .card-section {
-  display: -ms-grid;
-  display: grid;
-  grid-column-gap: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-grid-columns: (250px)[3];
-      grid-template-columns: repeat(3, 250px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .card-section a {
@@ -306,11 +308,13 @@
 }
 
 .card-container {
-  height: 360px;
+  height: 100%;
+  width: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-radius: 5px;
+  margin-bottom: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;

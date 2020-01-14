@@ -318,11 +318,11 @@ $blue:darken(#2196f3, 14%);
 
 //========== Card Styles ==========
 .card-section {
-    display: grid;
-    grid-column-gap: 30px;
-    justify-content: center;
-    grid-template-columns: repeat(3, 250px);
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
     a{
         color: #fff;
 
@@ -334,9 +334,11 @@ $blue:darken(#2196f3, 14%);
 }
 
 .card-container{
-    height: 360px;
+    height: 100%;
+    width: 250px;
     display: flex;
     border-radius: 5px;
+    margin-bottom: 2rem;
     flex-flow: column nowrap;
 
     &:hover {
