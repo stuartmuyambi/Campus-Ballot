@@ -36,7 +36,7 @@
 
         </div>
 
-        <div class="dash-section-3">
+        <div class="dash-section-2">
             <div class="admin-profile">
                 <img src="../../images/admin_profile.jpg" alt="Admin Profile Picture" class="admin-pic">
                 <span class="dash-username">

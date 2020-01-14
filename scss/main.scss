@@ -282,12 +282,17 @@ $blue:darken(#2196f3, 14%);
     margin-right: auto;
 }
 
-.dash-section-3{
+.dash-section-2{
     text-align: center;
     margin-right: 3rem;
 
     a:hover{
         text-decoration: none;
+    }
+
+    ul li{
+        list-style-type: none;
+        display: inline-block;
     }
 }
 

@@ -256,13 +256,18 @@
   margin-right: auto;
 }
 
-.dash-section-3 {
+.dash-section-2 {
   text-align: center;
   margin-right: 3rem;
 }
 
-.dash-section-3 a:hover {
+.dash-section-2 a:hover {
   text-decoration: none;
+}
+
+.dash-section-2 ul li {
+  list-style-type: none;
+  display: inline-block;
 }
 
 .main-section-container {

@@ -18,15 +18,21 @@
             <h2 class="dash-logo"><a href="index.php"> <i class="fas fa-vote-yea"></i> Campus Ballot</a></h2>
         </div>
 
-        <div class="dash-section-3 nav-icons">
-            <a href="index.php" title="home"><i class="fas fa-home fa-lg icon"></i></a>
-            <a href="#" title="Messages"><i class="fas fa-envelope fa-lg icon"></i></a>            
-            <a href="#" title="Notifications"><i class="fas fa-bell fa-lg icon"></i></a>
-            <?php  if(isset($_SESSION['user'])) : ?>
-                <a href="index.php?logout='1'" title="Logout">
-                    <i class="fas fa-power-off fa-lg icon-logout"> </i>
-                </a>
-            <?php  endif ?>
+        <div class="dash-section-2 nav-icons">
+
+            <ul>
+                <li><a href="index.php" title="home"><i class="fas fa-home fa-lg icon"></i></a></li>
+                <li><a href="#" title="Messages"><i class="fas fa-envelope fa-lg icon"></i></a></li>
+                <li><a href="#" title="Notifications"><i class="fas fa-bell fa-lg icon"></i></a></li>
+                <li>
+                    <?php  if(isset($_SESSION['user'])) : ?>
+                        <a href="index.php?logout='1'" title="Logout">
+                            <i class="fas fa-power-off fa-lg icon-logout"> </i>
+                        </a>
+                    <?php  endif ?>
+                </li>
+            </ul>
+          
         </div>
 
     </nav>
