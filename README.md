@@ -5,7 +5,7 @@ Campus Ballot is an automated online voting app build to assist in conducting of
 
  The project was initiated as part of my end of semester project. It is a very simple Online voting app am working on which gives users capabilities to vote for there favourite candidates at there universities online. 
 
- ## Screenshots
+ ## Application Screenshots
  ---
  In the screenshot below is a screenshot of the main login page. If a user isn't logged in and tries to access a page that is only supporsed to be accessed by a logged in user, they will be redirected to the login page.
 

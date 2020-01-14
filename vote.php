@@ -21,7 +21,7 @@
 
             <section class="candidate-thumbnail-container">
                 <div class="candidate-thumbnail">
-                    <h3 class="thumbnail-heading">Guild President  <span class="badge badge-primary">4</span></h3>
+                    <h3 class="thumbnail-heading">Guild President  <span class="badge badge-primary">3</span></h3>
 
                     <section class="select-container">
                         <div class="select shadow-sm mb-2 mt-3">
@@ -30,15 +30,22 @@
                                 <label class="custom-control-label" for="customRadio1">Lemi Simon</label>
                             </div>
                         </div>
-    
-                        <div class="select shadow-sm">
+
+                        <div class="select shadow-sm mb-2">
                             <div class="custom-control custom-radio ml-2">
-                                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input ml-3">
-                                <label class="custom-control-label" for="customRadio2">Rukundo Irene</label>
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input ml-3">
+                                <label class="custom-control-label" for="customRadio1">Lemi Simon</label>
+                            </div>
+                        </div>
+
+                        <div class="select shadow-sm mb-2">
+                            <div class="custom-control custom-radio ml-2">
+                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input ml-3">
+                                <label class="custom-control-label" for="customRadio1">Lemi Simon</label>
                             </div>
                         </div>
                         
-                        <button type="button" class="btn btn-primary btn-sm btn-block">VOTE</button>
+                        <button type="button" class="btn btn-primary btn-lg btn-block mt-4">VOTE</button>
                     </section>
 
                 </div>
