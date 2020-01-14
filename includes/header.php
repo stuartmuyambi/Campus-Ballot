@@ -24,6 +24,7 @@
                 <li><a href="index.php" title="home"><i class="fas fa-home fa-lg icon"></i></a></li>
                 <li><a href="#" title="Messages"><i class="fas fa-envelope fa-lg icon"></i></a></li>
                 <li><a href="#" title="Notifications"><i class="fas fa-bell fa-lg icon"></i></a></li>
+                <li><a href="#" title="Profile"><i class="fas fa-user-circle fa-lg icon"></i></a></li>
                 <li>
                     <?php  if(isset($_SESSION['user'])) : ?>
                         <a href="index.php?logout='1'" title="Logout">
