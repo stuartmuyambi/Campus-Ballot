@@ -11,8 +11,9 @@
     <title><?php echo $pageTitle; ?></title>
 </head>
 <body class="index-body">
+
     <!-- Dashboard Navigation Menu -->
-    <div class="dash-nav">
+    <nav class="dash-nav">
         <div class="dash-section-1">
             <h2 class="dash-logo"><a href="index.php"> <i class="fas fa-vote-yea"></i> Campus Ballot</a></h2>
         </div>
@@ -28,5 +29,5 @@
             <?php  endif ?>
         </div>
 
-    </div>
+    </nav>
     <!-- End of Dashboard Navigation  -->
