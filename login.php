@@ -7,19 +7,23 @@
 <?php include("includes/boilerplate.php")?>
 
 <body class="login-body">
-    <div class="form-container shadow">
-        <div class="form-section dark-form-section">
+
+    <main class="form-container shadow">
+
+        <section class="form-section dark-form-section">
             <i class="fas fa-vote-yea vote-icon"></i>
             <h1 class="slogan" id="slogan">Your <span class="vote">vote</span> your <span class="line">voice.</span></h1>
-        </div>
+        </section>
 
-        <div class="form-section white-form-section">
-            <div class="input-container">
+        <section class="form-section white-form-section">
+            
+            <section class="input-container">
                 <h2 class="text-logo"><i class="fas fa-vote-yea"></i> Campus Ballot</h2>
                 <p class="lead" style="color: #6c757d;">We're happy to see you again!</p>
 
                 <form action="login.php" method="post">
                     <?php echo display_error(); ?>
+                    
                     <div class="input-group mt-3 mb-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-user"></i></div>
@@ -48,8 +52,9 @@
                     <button type="submit" name="login_btn" class="btn btn-primary btn-block mt-4">Login</button>
                     <p class="mt-3" style="color: #6c757d;">Don't have an account yet? <a href="register.php">Sign up</a></p>
                 </form>
-            </div>
-        </div>
-    </div>
+            </section>
+
+        </section>
+    </main>
 
 <?php include("includes/footer.php")?>
