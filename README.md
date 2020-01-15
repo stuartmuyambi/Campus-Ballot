@@ -29,7 +29,7 @@ Form Validation is done with vanilla PHP to prevent unauthorized access of the a
 
 ## Authorised Users
 1. Administrator
-2. Voter
+2. Voter Roles
 
 ## Admin Features
 
