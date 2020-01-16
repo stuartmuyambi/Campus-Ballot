@@ -7,7 +7,6 @@
         $_SESSION['msg'] = "Please login to continue";
         header('location: login.php');
     }
-
 ?>
 
 <?php include("includes/header.php")?>
