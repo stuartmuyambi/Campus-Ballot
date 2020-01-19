@@ -437,7 +437,7 @@
 
 .post {
   width: 20%;
-  padding: 15px;
+  height: 40px;
   background: #0cebeb;
   /* fallback for old browsers */
   background: -webkit-gradient(linear, left top, right top, from(#02b3e3), to(#02ccba));
