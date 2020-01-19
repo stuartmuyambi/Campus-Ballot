@@ -427,6 +427,13 @@
   color: #313947;
 }
 
+.vote-section {
+  width: 90%;
+  height: 8rem;
+  margin: auto;
+  background-color: #fff;
+}
+
 .home-pagination {
   font-weight: 600;
   color: #07a7f3;

@@ -19,7 +19,7 @@
             <h3 class="voting-heading pb-3">Aspiring Candidates</h3>
             <hr class="pb-4">
 
-            <section>
+            <section class="vote-section">
             </section>
 
             
