@@ -19,7 +19,8 @@
             <h3 class="voting-heading pb-3">Aspiring Candidates</h3>
             <hr class="pb-4">
 
-            <section class="vote-section shadow-sm">
+            <section class="vote-section shadow-sm pt-4">
+                <div class="post">Guild President</div>
             
             </section>
 

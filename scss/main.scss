@@ -452,6 +452,14 @@ $blue:darken(#2196f3, 14%);
     background-color: #fff;
 }
 
+.post {
+    width: 20%;
+    padding: 15px;
+    background: #0cebeb;  /* fallback for old browsers */
+    background: linear-gradient(to right, #02b3e3, #02ccba);
+
+}
+
 .home-pagination {
     font-weight: 600;
     color: #07a7f3;
