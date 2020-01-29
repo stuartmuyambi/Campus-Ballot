@@ -20,7 +20,6 @@
             <hr class="pb-4">
 
             <section class="vote-section shadow-sm pt-4">
-                <div class="post">Guild President</div>
             
             </section>
 
