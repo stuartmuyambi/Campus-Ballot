@@ -429,7 +429,7 @@
 
 .vote-section {
   width: 90%;
-  height: 8rem;
+  height: auto;
   margin: auto;
   border-radius: 7px;
   background-color: #fff;

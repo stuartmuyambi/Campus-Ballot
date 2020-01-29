@@ -19,8 +19,33 @@
             <h3 class="voting-heading pb-3">Guild Nominations</h3>
             <hr class="pb-4">
 
-            <section class="vote-section shadow-sm pt-4">
-            
+            <section class="vote-section shadow-sm pt-4 pb-4 pr-5 pl-5">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">Mark</th>
+                    <td>Mark</td>
+                    <td>@mdo</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Jacob</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Larry</th>
+                    <td>Larry</td>
+                    <td>@twitter</td>
+                    </tr>
+                </tbody>
+                </table>
             </section>
 
             
