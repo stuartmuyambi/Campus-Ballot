@@ -30,19 +30,12 @@
                 </thead>
                 <tbody>
                     <tr>
-                    <th scope="row">Mark</th>
-                    <td>Mark</td>
-                    <td>@mdo</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">Jacob</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">Larry</th>
-                    <td>Larry</td>
-                    <td>@twitter</td>
+                        <th scope="row">Mark</th>
+                        <td>Mark</td>
+                        <td>
+                            <a href="#" class="btn btn-success" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
+                            <a href="#" class="btn btn-danger" title="Delete Poll"><i class="fas fa-trash fa-xs"></i></a>
+                        </td>
                     </tr>
                 </tbody>
                 </table>
