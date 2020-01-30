@@ -14,35 +14,7 @@
 
     <!-- Main Body  -->
     <div class="main-body">
-        <section class="thumbs-container shadow mt-5 pt-4 pl-5 pr-5 pb-5">
-            <p><a href="index.php" class="home-pagination">Home</a></p>
-            <h3 class="voting-heading pb-3">Guild Nominations</h3>
-            <hr class="pb-4">
-
-            <section class="vote-section shadow-sm pt-4 pb-4 pr-5 pl-5">
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                    <tr>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Mark</th>
-                        <td>Mark</td>
-                        <td>
-                            <a href="#" class="btn btn-success" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
-                            <a href="#" class="btn btn-danger" title="Delete Poll"><i class="fas fa-trash fa-xs"></i></a>
-                        </td>
-                    </tr>
-                </tbody>
-                </table>
-            </section>
-
-            
-        </section>
+        
     </div>
 
 <?php include("includes/footer.php"); ?>
