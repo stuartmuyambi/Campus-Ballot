@@ -23,10 +23,10 @@
                 <div class="input-group-prepend">
                     <div class="input-group-text"><i class="fas fa-search"></i></div>
                 </div>
-                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Search table">
+                <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search table">
             </div>
 
-        <table class="table table-striped">
+        <table class="table table-striped" id="myTable">
             <thead class="thead-dark">
                 <tr>
                 <th scope="col">V.ID</th>
