@@ -15,7 +15,7 @@
     <main class="main-body">
 
         <?php  if(isset($_SESSION['user'])) : ?>
-            <h1 class="display-4 mt-3">Hello <?php echo $_SESSION['user']['username'];?>
+            <h1 class="display-4 mt-3">Hello <?php echo $_SESSION['user']['username'];?> !</h1>
         <?php  endif ?>
 
         <p class="index-slogan mt-2 mb-4">We're here to securely assist you vote in a fast and easy way possible. Please select a card to proceed.</p>
