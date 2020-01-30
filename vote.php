@@ -21,29 +21,29 @@
         <table class="table table-striped">
             <thead class="thead-dark">
                 <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">V.ID</th>
+                <th scope="col">Guild Post</th>
+                <th scope="col">Candidates</th>
+                <th scope="col">Action</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                 <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
+                <td>Guild President</td>
+                <td>Stuart Muyambi</td>
                 <td>@mdo</td>
                 </tr>
                 <tr>
                 <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
+                <td>Guild Speaker</td>
+                <td>Male Joel</td>
                 <td>@fat</td>
                 </tr>
                 <tr>
                 <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
+                <td>Academic Minister</td>
+                <td>Musenero Rebeca</td>
                 <td>@twitter</td>
                 </tr>
             </tbody>
