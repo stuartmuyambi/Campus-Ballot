@@ -18,7 +18,7 @@
             <h1 class="display-4 mt-3">Hello <?php echo $_SESSION['user']['username'];?>
         <?php  endif ?>
 
-        <p class="index-slogan mt-2 mb-4">We're here to securely assist you in a fast and easy way possible. What would you like to achieve today:</p>
+        <p class="index-slogan mt-2 mb-4">We're here to securely assist you vote in a fast and easy way possible. Please select a card to proceed.</p>
 
         <section class="card-section mt-3">
 
