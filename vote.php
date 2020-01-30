@@ -14,6 +14,10 @@
 
     <!-- Main Body  -->
     <div class="main-body">
+        <section class="thumbs-container shadow mt-5 pt-4 pl-5 pr-5 pb-5">
+            
+            
+        </section>
         
     </div>
 
