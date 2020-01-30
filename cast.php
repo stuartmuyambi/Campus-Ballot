@@ -25,7 +25,19 @@
     <p class="index-slogan mt-2 mb-4">Be smart and do your part. Vote for the best, Forget the rest.</p>
 
         <section class="thumbs-container shadow mt-4 pt-4 pl-5 pr-5 pb-5">
+            <h3>Guild President</h3>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" value="customRadio1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Stuart Muyambi</label>
+            </div>
             
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" value="customRadio2"class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Lemi Simon Joseph</label>
+            </div>
+
+            </div>
             
         </section>
         
