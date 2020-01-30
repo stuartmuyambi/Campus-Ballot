@@ -23,7 +23,7 @@
                 <div class="input-group-prepend">
                     <div class="input-group-text"><i class="fas fa-search"></i></div>
                 </div>
-                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Filter table">
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Search table">
             </div>
 
         <table class="table table-striped">
