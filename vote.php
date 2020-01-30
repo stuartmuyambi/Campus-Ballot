@@ -18,6 +18,14 @@
     <p class="index-slogan mt-2 mb-4">We're excited you've decided to cast your vote today. Let's help you get started.</p>
 
         <section class="thumbs-container shadow mt-5 pt-4 pl-5 pr-5 pb-5">
+            
+            <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fas fa-search"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Filter table">
+            </div>
+
         <table class="table table-striped">
             <thead class="thead-dark">
                 <tr>
