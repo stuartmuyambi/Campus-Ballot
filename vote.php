@@ -46,7 +46,7 @@
             <?php foreach ($polls as $poll): ?>
             <tr>
                 <th scope="row">
-                    <li class="avatar">A</li>
+                    <li class="avatar">j</li>
                 </th>
                 <td><?=$poll['title']?></td>
 				<td><?=$poll['answers']?></td>
