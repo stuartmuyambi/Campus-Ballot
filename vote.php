@@ -36,7 +36,7 @@
         <table class="table table-striped" id="myTable">
             <thead class="thead-dark">
                 <tr>
-                <!-- <th scope="col">V.ID</th> -->
+                <th scope="col">P.ID</th>
                 <th scope="col">Guild Post</th>
                 <th scope="col">Candidates</th>
                 <th scope="col"></th>
@@ -45,7 +45,9 @@
             <tbody>
             <?php foreach ($polls as $poll): ?>
             <tr>
-                <!-- <th scope="row"><?=$poll['id']?></th> -->
+                <th scope="row">
+                    <li class="avatar">SM</li>
+                </th>
                 <td><?=$poll['title']?></td>
 				<td><?=$poll['answers']?></td>
                 <td class="actions">

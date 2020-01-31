@@ -458,6 +458,20 @@ $blue:darken(#2196f3, 14%);
     color: #07a7f3;
 }
 
+.avatar {
+    width: 52px;
+    height: 52px;
+    background-color: #ccc;
+    border-radius: 50%;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .thumbnail-heading{
     font-family: 'Arial-Regular', sans-serif;
     font-size: 1.1rem;

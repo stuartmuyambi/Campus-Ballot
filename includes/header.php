@@ -32,8 +32,7 @@
                         </a>
                     <?php  endif ?>
                 </li>
-            </ul>
-          
+            </ul>          
         </div>
 
     </nav>
