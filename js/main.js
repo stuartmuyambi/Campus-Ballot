@@ -47,7 +47,13 @@ function numberFromText(text) { // numerFromText("AA");
     .split('') // => ["A", "A"]
     .map(char => char.charCodeAt(0)) // =>[65, 65]
     .join(''); // => "6565"
-    return charCodes;
-
+    return parseInt(charCodes, 10);
 };
+
+const avatars = document.querySelectorAll('.avatar');
+
+avatars.forEach(avatar => {
+    const text =avatar.innerText;
+    avatar.style.backgroundColor = colors[numberFromText(text) % colors.length];
+});
 
