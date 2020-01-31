@@ -10,21 +10,59 @@
 
     // Connect to MySQL
     $pdo = pdo_connect_mysql();
-
-    // MySQL query that selects all the polls and poll answers
-    $stmt = $pdo->query('SELECT p.*, GROUP_CONCAT(pa.title ORDER BY pa.id) AS answers FROM polls p LEFT JOIN poll_answers pa ON pa.poll_id = p.id GROUP BY p.id');
-    $polls = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    // If the GET request "id" exists (poll id)...
+    if (isset($_GET['id'])) {
+        // MySQL query that selects the poll records by the GET request "id"
+        $stmt = $pdo->prepare('SELECT * FROM polls WHERE id = ?');
+        $stmt->execute([$_GET['id']]);
+        // Fetch the record
+        $poll = $stmt->fetch(PDO::FETCH_ASSOC);
+        // Check if the poll record exists with the id specified
+        if ($poll) {
+            // MySQL Query that will get all the answers from the "poll_answers" table ordered by the number of votes (descending)
+            $stmt = $pdo->prepare('SELECT * FROM poll_answers WHERE poll_id = ? ORDER BY votes DESC');
+            $stmt->execute([$_GET['id']]);
+            // Fetch all poll answers
+            $poll_answers = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            // Total number of votes, will be used to calculate the percentage
+            $total_votes = 0;
+            foreach ($poll_answers as $poll_answer) {
+                // Every poll answers votes will be added to total votes
+                $total_votes += $poll_answer['votes'];
+            }
+        } else {
+            die ('Poll with that ID does not exist.');
+        }
+    } else {
+        die ('No poll ID specified.');
+    }
 ?>
 
 <?php include("includes/header.php"); ?>
 
     <!-- Main Body  -->
     <div class="main-body">
-        <div class="voters-container mt-5 pt-5 pb-5">
-            <div class="table-container shadow pt-5 pl-5 pr-5 pb-5">
-                
+    <h1 class="display-4 mt-3"><?=$poll['title']?> Results!</h1>
+    <p class="index-slogan mt-2 mb-4">We're excited you've decided to cast your vote today. Let's help you get started.</p>
+
+        <section class="thumbs-container shadow mt-4 pt-4 pl-5 pr-5 pb-5 mb-5">
+        <div class="content poll-result">
+        <h2><?=$poll['title']?></h2>
+        <p><?=$poll['desc']?></p>
+        <div class="wrapper">
+            <?php foreach ($poll_answers as $poll_answer): ?>
+            <div class="poll-question">
+                <p><?=$poll_answer['title']?> <span>(<?=$poll_answer['votes']?> Votes)</span></p>
+                <div class="result-bar" style= "width:<?=@round(($poll_answer['votes']/$total_votes)*100)?>%">
+                    <?=@round(($poll_answer['votes']/$total_votes)*100)?>%
+                </div>
             </div>
+            <?php endforeach; ?>
         </div>
+    </div>
+        
+        </section>
+        
     </div>
 
 <?php include("includes/footer.php"); ?>
