@@ -39,7 +39,7 @@
                 <th scope="col">V.ID</th>
                 <th scope="col">Guild Post</th>
                 <th scope="col">Candidates</th>
-                <th scope="col">Action</th>
+                <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
@@ -50,7 +50,6 @@
 				<td><?=$poll['answers']?></td>
                 <td class="actions">
 					<a href="vote.php?id=<?=$poll['id']?>" class="btn btn-success" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
-                    <a href="delete.php?id=<?=$poll['id']?>" class="btn btn-danger" title="Delete Poll"><i class="fas fa-trash fa-xs"></i></a>
                 </td>
             </tr>
             <?php endforeach; ?>
