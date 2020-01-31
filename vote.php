@@ -43,24 +43,17 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                <th scope="row">1</th>
-                <td>Guild President</td>
-                <td>Stuart Muyambi</td>
-                <td>@mdo</td>
-                </tr>
-                <tr>
-                <th scope="row">2</th>
-                <td>Guild Speaker</td>
-                <td>Male Joel</td>
-                <td>@fat</td>
-                </tr>
-                <tr>
-                <th scope="row">3</th>
-                <td>Academic Minister</td>
-                <td>Musenero Rebeca</td>
-                <td>@twitter</td>
-                </tr>
+            <?php foreach ($polls as $poll): ?>
+            <tr>
+                <th scope="row"><?=$poll['id']?></th>
+                <td><?=$poll['title']?></td>
+				<td><?=$poll['answers']?></td>
+                <td class="actions">
+					<a href="vote.php?id=<?=$poll['id']?>" class="btn btn-success" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
+                    <a href="delete.php?id=<?=$poll['id']?>" class="btn btn-danger" title="Delete Poll"><i class="fas fa-trash fa-xs"></i></a>
+                </td>
+            </tr>
+            <?php endforeach; ?>
             </tbody>
             </table>
             
