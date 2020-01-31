@@ -401,6 +401,11 @@ h6, .h6 {
   font-weight: 300;
 }
 
+.lead-3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
