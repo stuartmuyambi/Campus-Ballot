@@ -26,7 +26,7 @@
 
         <section class="thumbs-container shadow mt-4 pt-4 pl-5 pr-5 pb-5 mb-5">
             
-            <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group mt-3 mb-3 mr-sm-2">
                 <div class="input-group-prepend">
                     <div class="input-group-text"><i class="fas fa-search"></i></div>
                 </div>
