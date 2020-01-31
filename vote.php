@@ -49,7 +49,7 @@
                 <td><?=$poll['title']?></td>
 				<td><?=$poll['answers']?></td>
                 <td class="actions">
-					<a href="vote.php?id=<?=$poll['id']?>" class="btn btn-success" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
+					<a href="vote.php?id=<?=$poll['id']?>" class="btn btn-dark" title="View Poll"><i class="fas fa-eye fa-xs"></i></a>
                 </td>
             </tr>
             <?php endforeach; ?>

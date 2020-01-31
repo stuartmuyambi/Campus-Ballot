@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 08, 2020 at 09:44 PM
+-- Generation Time: Jan 31, 2020 at 07:46 AM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.12
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `user_type` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `users`
@@ -46,7 +46,8 @@ INSERT INTO `users` (`id`, `username`, `email`, `user_type`, `password`) VALUES
 (2, 'Brad Traversy', 'techguy@gmail.com', 'user', 'f01fa46fd13db60092dde5ccb386f153'),
 (3, 'Stuart', 'stuartmuyambi@gmail.com', 'user', 'f01fa46fd13db60092dde5ccb386f153'),
 (4, 'Stefan Mischook', 'stefan@gmail.com', 'user', 'f01fa46fd13db60092dde5ccb386f153'),
-(5, 'John Sonmez', 'john@simpleprogrammer.com', 'user', 'f01fa46fd13db60092dde5ccb386f153');
+(5, 'John Sonmez', 'john@simpleprogrammer.com', 'user', 'f01fa46fd13db60092dde5ccb386f153'),
+(6, 'Jonathan', 'jonah@gmail.com', 'user', 'f01fa46fd13db60092dde5ccb386f153');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
