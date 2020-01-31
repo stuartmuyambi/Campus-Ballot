@@ -36,7 +36,7 @@
         <table class="table table-striped" id="myTable">
             <thead class="thead-dark">
                 <tr>
-                <th scope="col">P.ID</th>
+                <th scope="col"></th>
                 <th scope="col">Guild Post</th>
                 <th scope="col">Candidates</th>
                 <th scope="col"></th>
@@ -48,7 +48,7 @@
                 <th scope="row">
                     <span class="avatar">
                         <?php
-                            $string = "Stuart";
+                            $string = $poll['title'];
                             $firstChar = $string[0];
                             echo($firstChar);
                         ?>
