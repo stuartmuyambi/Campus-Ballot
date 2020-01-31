@@ -37,8 +37,8 @@
             <thead class="thead-dark">
                 <tr>
                 <th scope="col"></th>
-                <th scope="col">Guild Post</th>
-                <th scope="col">Candidates</th>
+                <th scope="col" class="lead-2">Guild Post</th>
+                <th scope="col" class="lead-2">Candidates</th>
                 <th scope="col"></th>
                 </tr>
             </thead>
