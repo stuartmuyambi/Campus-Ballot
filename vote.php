@@ -30,7 +30,7 @@
                 <div class="input-group-prepend">
                     <div class="input-group-text"><i class="fas fa-search"></i></div>
                 </div>
-                <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search table">
+                <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search for Candidates">
             </div>
 
         <table class="table table-striped" id="myTable">
