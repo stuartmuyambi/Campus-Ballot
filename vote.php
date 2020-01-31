@@ -54,8 +54,8 @@
                         ?>
                     </span>
                 </th>
-                <td class="lead-3"><?=$poll['title']?></td>
-				<td class="lead-3"><?=$poll['answers']?></td>
+                <td><?=$poll['title']?></td>
+				<td><?=$poll['answers']?></td>
                 <td class="actions">
 					<a href="vote.php?id=<?=$poll['id']?>" class="btn btn-outline-dark" title="Cast Vote"><i class="fas fa-vote-yea fa-xs"></i></a>
 					<a href="vote.php?id=<?=$poll['id']?>" class="btn btn-dark" title="View Results"><i class="fas fa-chart-bar fa-xs"></i></a>
