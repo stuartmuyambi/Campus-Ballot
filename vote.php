@@ -24,7 +24,7 @@
     <h1 class="display-4 mt-3">Sounds Great!</h1>
     <p class="index-slogan mt-2 mb-4">We're excited you've decided to cast your vote today. Let's help you get started.</p>
 
-        <section class="thumbs-container shadow mt-4 pt-4 pl-5 pr-5 pb-5">
+        <section class="thumbs-container shadow mt-4 pt-4 pl-5 pr-5 pb-5 mb-5">
             
             <div class="input-group mb-2 mr-sm-2">
                 <div class="input-group-prepend">
