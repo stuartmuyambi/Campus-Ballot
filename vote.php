@@ -46,13 +46,13 @@
             <?php foreach ($polls as $poll): ?>
             <tr>
                 <th scope="row">
-                    <li class="avatar">
+                    <span class="avatar">
                         <?php
                             $string = "Stuart";
                             $firstChar = $string[0];
                             echo($firstChar);
                         ?>
-                    </li>
+                    </span>
                 </th>
                 <td><?=$poll['title']?></td>
 				<td><?=$poll['answers']?></td>
