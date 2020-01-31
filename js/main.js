@@ -39,7 +39,7 @@ function myFunction() {
 
 // Set the background color of the avatars 
 
-const colors = ["#00AA55","#009FD4","#B381B3","#939393","#E3BC00","#D47500","#DC2A2A"];
+const colors = ["#27c24c","#009FD4","#B381B3","#939393","#E3BC00","#D47500","#df103e"];
 
 // The function below converts the avatar text into a number
 function numberFromText(text) { // numerFromText("AA");
