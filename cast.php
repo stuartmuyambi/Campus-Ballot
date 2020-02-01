@@ -52,7 +52,6 @@ if (isset($_GET['id'])) {
         <section class="thumbs-container shadow mt-4 pt-4 pl-5 pr-5 pb-5">
         <div class="content poll-vote">
         <h2><?=$poll['title']?></h2>
-        <p><?=$poll['desc']?></p>
         <form action="vote.php?id=<?=$_GET['id']?>" method="post">
             <?php for ($i = 0; $i < count($poll_answers); $i++): ?>
             <label>
