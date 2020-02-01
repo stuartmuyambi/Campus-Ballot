@@ -48,7 +48,6 @@
         <section class="thumbs-container shadow mt-4 pt-4 pl-5 pr-5 pb-5 mb-5">
         <div class="content poll-result">
         <h2><?=$poll['title']?></h2>
-        <p><?=$poll['desc']?></p>
         <div class="wrapper">
             <?php foreach ($poll_answers as $poll_answer): ?>
             <div class="poll-question">
