@@ -51,7 +51,7 @@
         <div class="wrapper">
             <?php foreach ($poll_answers as $poll_answer): ?>
             <div class="poll-question">
-                <p><?=$poll_answer['title']?> <span class="badge badge-primary badge-pill font-weight-bold"><?=$poll_answer['votes']?> Votes</span></p>
+                <p class="lead-2 font-weight-normal"><?=$poll_answer['title']?> <span class="badge badge-primary badge-pill font-weight-bold font-weight-light"><?=$poll_answer['votes']?> Votes</span></span>
                 <div class="progress-bar progress-bar-striped mb-4" style= "width:<?=@round(($poll_answer['votes']/$total_votes)*100)?>%">
                     <?=@round(($poll_answer['votes']/$total_votes)*100)?>%
                 </div>
