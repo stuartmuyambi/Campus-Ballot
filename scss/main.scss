@@ -493,3 +493,15 @@ $blue:darken(#2196f3, 14%);
     padding: 7px;
     border-radius: 7px;
 }
+
+.result-bar {
+    display: flex;
+    height: 25px;
+    min-width: 5%;
+    background-color: #38b673;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
