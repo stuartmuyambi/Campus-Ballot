@@ -58,10 +58,10 @@ if (isset($_GET['id'])) {
             <label>
                 <input type="radio" name="poll_answer" value="<?=$poll_answers[$i]['id']?>"<?=$i == 0 ? ' checked' : ''?>>
                 <?=$poll_answers[$i]['title']?>
-            </label>
+            </label> <br>
             <?php endfor; ?>
             <div>
-                <input type="submit" value="Vote">
+                <input type="submit" value="Vote" class="btn btn-primary btn-lg mt-4">
             </div>
         </form>
     </div>
