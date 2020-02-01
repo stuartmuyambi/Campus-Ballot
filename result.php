@@ -53,7 +53,7 @@
             <?php foreach ($poll_answers as $poll_answer): ?>
             <div class="poll-question">
                 <p><?=$poll_answer['title']?> <span>(<?=$poll_answer['votes']?> Votes)</span></p>
-                <div class="result-bar" style= "width:<?=@round(($poll_answer['votes']/$total_votes)*100)?>%">
+                <div class="progress-bar progress-bar-striped" style= "width:<?=@round(($poll_answer['votes']/$total_votes)*100)?>%">
                     <?=@round(($poll_answer['votes']/$total_votes)*100)?>%
                 </div>
             </div>
