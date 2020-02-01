@@ -5261,6 +5261,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   white-space: nowrap;
   background-color: #007bff;
   transition: width 0.6s ease;
+  border-radius: 8px;
 }
 
 @media (prefers-reduced-motion: reduce) {
