@@ -33,7 +33,7 @@
                 </div>
             </a>
 
-            <a href="candidates.php">
+            <a href="#">
                 <div class="card-container card-2 shrink">
                     <header class="card-header">
                         <i class="fas fa-user-friends fa-3x mt-4"></i>
