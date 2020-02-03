@@ -42,8 +42,8 @@
 
     <!-- Main Body  -->
     <div class="main-body">
-    <h1 class="display-4 mt-3"><?=$poll['title']?> Results!</h1>
-    <p class="index-slogan mt-2 mb-4">We're excited you've decided to cast your vote today. Let's help you get started.</p>
+    <h1 class="display-4 mt-3">Poll Results</h1>
+    <p class="index-slogan mt-2 mb-4">Finally, Here are the poll results for <?=$poll['title']?> candidates</p>
 
         <section class="thumbs-container shadow mt-4 pt-4 pl-5 pr-5 pb-5 mb-5">
         <div class="content poll-result">
