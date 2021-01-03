@@ -1,5 +1,5 @@
 ![image](images/README/logo.jpg)
-# Online Voting Web Application
+# Online Voting Web Application.
 
 Campus Ballot is an automated online voting app build to assist in conducting of guild elections in local universities.
 
